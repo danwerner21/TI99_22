@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Library")(type "KiCad")(uri "/home/dwerner/.local/share/kicad/6.0/footprints/dan_Library.pretty/Library.pretty/Library.pretty")(options "")(descr ""))
+)
