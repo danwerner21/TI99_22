@@ -499,6 +499,10 @@
     [
       "00000000-0000-0000-0000-0000560691d6",
       "GROM-IO-Port"
+    ],
+    [
+      "0479bcf4-aa47-4c0e-84b6-cb1b42828ccd",
+      "Onboard-banked-rom"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,378 @@
+(pcb N:\Projects\TI99_22\unicornboard\unicorn\unicorn.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(6.0.6)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  191000 -101000  91000 -101000  91000 -41000  191000 -41000
+            191000 -101000)
+    )
+    (keepout "" (polygon F.Cu 0  190900 -41400  91100 -41300  91100 -41000  190900 -41000
+            190900 -41400))
+    (keepout "" (polygon B.Cu 0  190900 -41400  91100 -41300  91100 -41000  190900 -41000
+            190900 -41400))
+    (keepout "" (polygon F.Cu 0  91400 -100900  91000 -100900  91100 -41000  91500 -41000
+            91400 -100900))
+    (keepout "" (polygon B.Cu 0  91400 -100900  91000 -100900  91100 -41000  91500 -41000
+            91400 -100900))
+    (keepout "" (polygon F.Cu 0  190900 -100900  190500 -100900  190500 -41000  190900 -41000
+            190900 -100900))
+    (keepout "" (polygon B.Cu 0  190900 -100900  190500 -100900  190500 -41000  190900 -41000
+            190900 -100900))
+    (keepout "" (polygon F.Cu 0  190900 -100900  91100 -100900  91100 -100600  190900 -100500
+            190900 -100900))
+    (keepout "" (polygon B.Cu 0  190900 -100900  91100 -100900  91100 -100600  190900 -100500
+            190900 -100900))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component WernerCustomLibrary:ESP32_DEVKIT_30
+      (place U5 138750.000000 -53225.000000 front 0.000000 (PN ESP32_MODULE))
+    )
+    (component "WernerCustomLibrary:HV-LV"
+      (place U4 105800.000000 -75700.000000 front 0.000000 (PN "HV-LV"))
+      (place U3 105650.000000 -54387.500000 front 0.000000 (PN "HV-LV"))
+    )
+    (component "WernerCustomLibrary:HV-LV::1"
+      (place U2 171950.000000 -76287.500000 front 0.000000 (PN "HV-LV"))
+      (place U1 172150.000000 -52987.500000 front 0.000000 (PN "HV-LV"))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical
+      (place J1 159380.000000 -47500.000000 front -90.000000 (PN "UNICORN PORT"))
+    )
+  )
+  (library
+    (image WernerCustomLibrary:ESP32_DEVKIT_30
+      (outline (path signal 120  -13630 -4920  17000 -4920))
+      (outline (path signal 120  -13630 -40540  17000 -40540))
+      (outline (path signal 120  -13630 -3650  -13630 -2320))
+      (outline (path signal 120  -13630 -4920  -13630 -40540))
+      (outline (path signal 120  -13630 -2320  -12300 -2320))
+      (outline (path signal 120  17000 -4920  17000 -40540))
+      (outline (path signal 50  -14100 -41000  17500 -41000))
+      (outline (path signal 50  -14100 -1850  -14100 -41000))
+      (outline (path signal 50  17500 -1850  -14100 -1850))
+      (outline (path signal 50  17500 -41000  17500 -1850))
+      (outline (path signal 100  -12935 -2380  17000 -2380))
+      (outline (path signal 100  -13570 -40480  -13570 -3015))
+      (outline (path signal 100  -13570 -3015  -12935 -2380))
+      (outline (path signal 100  17000 -2380  17000 -40480))
+      (outline (path signal 100  17000 -40480  -13570 -40480))
+      (pin Rect[A]Pad_1700x1700_um 1 -12300 -3650)
+      (pin Oval[A]Pad_1700x1700_um 2 -12300 -6190)
+      (pin Oval[A]Pad_1700x1700_um 3 -12300 -8730)
+      (pin Oval[A]Pad_1700x1700_um 4 -12300 -11270)
+      (pin Oval[A]Pad_1700x1700_um 5 -12300 -13810)
+      (pin Oval[A]Pad_1700x1700_um 6 -12300 -16350)
+      (pin Oval[A]Pad_1700x1700_um 7 -12300 -18890)
+      (pin Oval[A]Pad_1700x1700_um 8 -12300 -21430)
+      (pin Oval[A]Pad_1700x1700_um 9 -12300 -23970)
+      (pin Oval[A]Pad_1700x1700_um 10 -12300 -26510)
+      (pin Oval[A]Pad_1700x1700_um 11 -12300 -29050)
+      (pin Oval[A]Pad_1700x1700_um 12 -12300 -31590)
+      (pin Oval[A]Pad_1700x1700_um 13 -12300 -34130)
+      (pin Oval[A]Pad_1700x1700_um 14 -12300 -36670)
+      (pin Oval[A]Pad_1700x1700_um 15 -12300 -39210)
+      (pin Oval[A]Pad_1700x1700_um 16 15640 -39210)
+      (pin Oval[A]Pad_1700x1700_um 17 15640 -36670)
+      (pin Oval[A]Pad_1700x1700_um 18 15640 -34130)
+      (pin Oval[A]Pad_1700x1700_um 19 15640 -31590)
+      (pin Oval[A]Pad_1700x1700_um 20 15640 -29050)
+      (pin Oval[A]Pad_1700x1700_um 21 15640 -26510)
+      (pin Oval[A]Pad_1700x1700_um 22 15640 -23970)
+      (pin Oval[A]Pad_1700x1700_um 23 15640 -21430)
+      (pin Oval[A]Pad_1700x1700_um 24 15640 -18890)
+      (pin Oval[A]Pad_1700x1700_um 25 15640 -16350)
+      (pin Oval[A]Pad_1700x1700_um 26 15640 -13810)
+      (pin Oval[A]Pad_1700x1700_um 27 15640 -11270)
+      (pin Oval[A]Pad_1700x1700_um 28 15640 -8730)
+      (pin Oval[A]Pad_1700x1700_um 29 15640 -6190)
+      (pin Oval[A]Pad_1700x1700_um 30 15640 -3650)
+    )
+    (image "WernerCustomLibrary:HV-LV"
+      (outline (path signal 120  9000 -5070  9000 -17750))
+      (outline (path signal 120  -6530 -17750  9000 -17750))
+      (outline (path signal 120  -6530 -5070  -6530 -17750))
+      (outline (path signal 120  -6530 -3800  -6530 -2470))
+      (outline (path signal 120  -6530 -5070  9000 -5070))
+      (outline (path signal 120  -6530 -2470  -5200 -2470))
+      (outline (path signal 50  -7000 -18250  9500 -18250))
+      (outline (path signal 50  9500 -2000  -7000 -2000))
+      (outline (path signal 50  9500 -18250  9500 -2000))
+      (outline (path signal 50  -7000 -2000  -7000 -18250))
+      (outline (path signal 100  9000 -2530  9000 -17750))
+      (outline (path signal 100  -5835 -2530  9000 -2530))
+      (outline (path signal 100  -6470 -3165  -5835 -2530))
+      (outline (path signal 100  -6470 -17750  -6470 -3165))
+      (outline (path signal 100  9000 -17750  -6470 -17750))
+      (pin Rect[A]Pad_1700x1700_um 1 -5200 -3800)
+      (pin Oval[A]Pad_1700x1700_um 2 -5200 -6340)
+      (pin Oval[A]Pad_1700x1700_um 3 -5200 -8880)
+      (pin Oval[A]Pad_1700x1700_um 4 -5200 -11420)
+      (pin Oval[A]Pad_1700x1700_um 5 -5200 -13960)
+      (pin Oval[A]Pad_1700x1700_um 6 -5200 -16500)
+      (pin Oval[A]Pad_1700x1700_um 7 7500 -16500)
+      (pin Oval[A]Pad_1700x1700_um 8 7500 -13960)
+      (pin Oval[A]Pad_1700x1700_um 9 7500 -11420)
+      (pin Oval[A]Pad_1700x1700_um 10 7500 -8880)
+      (pin Oval[A]Pad_1700x1700_um 11 7500 -6340)
+      (pin Oval[A]Pad_1700x1700_um 12 7500 -3800)
+    )
+    (image "WernerCustomLibrary:HV-LV::1"
+      (outline (path signal 100  9000 -17750  -6470 -17750))
+      (outline (path signal 100  -6470 -17750  -6470 -3165))
+      (outline (path signal 100  -6470 -3165  -5835 -2530))
+      (outline (path signal 100  -5835 -2530  9000 -2530))
+      (outline (path signal 100  9000 -2530  9000 -17750))
+      (outline (path signal 50  -7000 -2000  -7000 -18250))
+      (outline (path signal 50  9500 -18250  9500 -2000))
+      (outline (path signal 50  9500 -2000  -7000 -2000))
+      (outline (path signal 50  -7000 -18250  9500 -18250))
+      (outline (path signal 120  -6530 -2470  -5200 -2470))
+      (outline (path signal 120  -6530 -5070  9000 -5070))
+      (outline (path signal 120  -6530 -3800  -6530 -2470))
+      (outline (path signal 120  -6530 -5070  -6530 -17750))
+      (outline (path signal 120  -6530 -17750  9000 -17750))
+      (outline (path signal 120  9000 -5070  9000 -17750))
+      (pin Oval[A]Pad_1700x1700_um 12 7500 -3800)
+      (pin Oval[A]Pad_1700x1700_um 11 7500 -6340)
+      (pin Oval[A]Pad_1700x1700_um 10 7500 -8880)
+      (pin Oval[A]Pad_1700x1700_um 9 7500 -11420)
+      (pin Oval[A]Pad_1700x1700_um 8 7500 -13960)
+      (pin Oval[A]Pad_1700x1700_um 7 7500 -16500)
+      (pin Oval[A]Pad_1700x1700_um 6 -5200 -16500)
+      (pin Oval[A]Pad_1700x1700_um 5 -5200 -13960)
+      (pin Oval[A]Pad_1700x1700_um 4 -5200 -11420)
+      (pin Oval[A]Pad_1700x1700_um 3 -5200 -8880)
+      (pin Oval[A]Pad_1700x1700_um 2 -5200 -6340)
+      (pin Rect[A]Pad_1700x1700_um 1 -5200 -3800)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical
+      (outline (path signal 120  -1330 -36890  1330 -36890))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -36890))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  1330 -1270  1330 -36890))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 50  -1800 -37350  1800 -37350))
+      (outline (path signal 50  1800 -37350  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -37350))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  1270 1270  1270 -36830))
+      (outline (path signal 100  -1270 -36830  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 -36830  -1270 -36830))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 12 0 -27940)
+      (pin Oval[A]Pad_1700x1700_um 13 0 -30480)
+      (pin Oval[A]Pad_1700x1700_um 14 0 -33020)
+      (pin Oval[A]Pad_1700x1700_um 15 0 -35560)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net D0
+      (pins U1-1 J1-1)
+    )
+    (net D1
+      (pins U1-2 J1-2)
+    )
+    (net D2
+      (pins U1-5 J1-3)
+    )
+    (net D3
+      (pins U1-6 J1-4)
+    )
+    (net D4
+      (pins U2-1 J1-5)
+    )
+    (net D5
+      (pins U2-2 J1-6)
+    )
+    (net D6
+      (pins U2-5 J1-7)
+    )
+    (net D7
+      (pins U2-6 J1-8)
+    )
+    (net GREADY
+      (pins U3-1 J1-9)
+    )
+    (net DBIN
+      (pins U3-2 J1-10)
+    )
+    (net IO_A14
+      (pins U3-5 J1-11)
+    )
+    (net GRMCLK
+      (pins U4-1 J1-12)
+    )
+    (net "~{GS}"
+      (pins U3-6 J1-13)
+    )
+    (net +5V
+      (pins U5-15 U4-4 U3-4 U2-4 U1-4 J1-14)
+    )
+    (net GND
+      (pins U5-14 U5-17 U4-3 U4-10 U3-3 U3-10 U2-10 U2-3 U1-10 U1-3 J1-15)
+    )
+    (net LV_D3
+      (pins U5-21 U1-7)
+    )
+    (net LV_D2
+      (pins U5-22 U1-8)
+    )
+    (net +3.3V
+      (pins U5-16 U4-9 U3-9 U2-9 U1-9)
+    )
+    (net LV_D1
+      (pins U5-24 U1-11)
+    )
+    (net LV_D0
+      (pins U5-25 U1-12)
+    )
+    (net LV_D7
+      (pins U5-12 U2-7)
+    )
+    (net LV_D6
+      (pins U5-13 U2-8)
+    )
+    (net LV_D5
+      (pins U5-11 U2-11)
+    )
+    (net LV_D4
+      (pins U5-18 U2-12)
+    )
+    (net "~{LV_GS}"
+      (pins U5-5 U3-7)
+    )
+    (net LV_A14
+      (pins U5-4 U3-8)
+    )
+    (net LV_DBIN
+      (pins U5-3 U3-11)
+    )
+    (net LV_GREADY
+      (pins U5-2 U3-12)
+    )
+    (net "unconnected-(U4-Pad2)"
+      (pins U4-2)
+    )
+    (net "unconnected-(U4-Pad5)"
+      (pins U4-5)
+    )
+    (net "unconnected-(U4-Pad6)"
+      (pins U4-6)
+    )
+    (net "unconnected-(U4-Pad7)"
+      (pins U4-7)
+    )
+    (net "unconnected-(U4-Pad8)"
+      (pins U4-8)
+    )
+    (net "unconnected-(U4-Pad11)"
+      (pins U4-11)
+    )
+    (net LV_GRMCLK
+      (pins U5-6 U4-12)
+    )
+    (net "unconnected-(U5-Pad1)"
+      (pins U5-1)
+    )
+    (net "unconnected-(U5-Pad7)"
+      (pins U5-7)
+    )
+    (net "unconnected-(U5-Pad8)"
+      (pins U5-8)
+    )
+    (net "unconnected-(U5-Pad9)"
+      (pins U5-9)
+    )
+    (net "unconnected-(U5-Pad10)"
+      (pins U5-10)
+    )
+    (net "unconnected-(U5-Pad19)"
+      (pins U5-19)
+    )
+    (net "unconnected-(U5-Pad20)"
+      (pins U5-20)
+    )
+    (net "unconnected-(U5-Pad23)"
+      (pins U5-23)
+    )
+    (net "unconnected-(U5-Pad26)"
+      (pins U5-26)
+    )
+    (net "unconnected-(U5-Pad27)"
+      (pins U5-27)
+    )
+    (net "unconnected-(U5-Pad28)"
+      (pins U5-28)
+    )
+    (net "unconnected-(U5-Pad29)"
+      (pins U5-29)
+    )
+    (net "unconnected-(U5-Pad30)"
+      (pins U5-30)
+    )
+    (class kicad_default
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
