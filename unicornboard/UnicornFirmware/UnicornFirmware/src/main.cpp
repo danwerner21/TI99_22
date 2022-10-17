@@ -95,18 +95,15 @@ void loop() {
     // Read Data
     if((mo==0) && (m==1))
     {
-/* This is the code to monitor other GROMS
-      delayMicroseconds(4);
-      d0=digitalRead(D0);
-      d1=digitalRead(D1);
-      d2=digitalRead(D2);
-      d3=digitalRead(D3);
-      d4=digitalRead(D4);
-      d5=digitalRead(D5);
-      d6=digitalRead(D6);
-      d7=digitalRead(D7);
-      dataByte = d0 | (d1 << 1) | (d2 << 2) | (d3 << 3) | (d4 << 4) | (d5 << 5) | (d6 << 6) | (d7 << 7);
-      */
+      outbyte=GROM[address];
+      d0=outbyte & 0x01;
+      d1=(outbyte>>1) & 0x01;
+      d2=(outbyte>>2) & 0x01;
+      d3=(outbyte>>3) & 0x01;
+      d4=(outbyte>>4) & 0x01;
+      d5=(outbyte>>5) & 0x01;
+      d6=(outbyte>>6) & 0x01;
+      d7=(outbyte>>7) & 0x01;
       pinMode(D0, OUTPUT);
       pinMode(D1, OUTPUT);
       pinMode(D2, OUTPUT);
@@ -115,34 +112,21 @@ void loop() {
       pinMode(D5, OUTPUT);
       pinMode(D6, OUTPUT);
       pinMode(D7, OUTPUT);
-      outbyte=GROM[address];
-      digitalWrite(D0,outbyte & 0x01);
-      digitalWrite(D1,(outbyte>>1) & 0x01);
-      digitalWrite(D2,(outbyte>>2) & 0x01);
-      digitalWrite(D3,(outbyte>>3) & 0x01);
-      digitalWrite(D4,(outbyte>>4) & 0x01);
-      digitalWrite(D5,(outbyte>>5) & 0x01);
-      digitalWrite(D6,(outbyte>>6) & 0x01);
-      digitalWrite(D7,(outbyte>>7) & 0x01);
-
-    //  printf("d-> %i %i %i %i %i %i %i %i -- ",(outbyte & 0x01),
-   //   ((outbyte>>1) & 0x01),
-   //   ((outbyte>>2) & 0x01),
-   //   ((outbyte>>3) & 0x01),
-   //   ((outbyte>>4) & 0x01),
-   //   ((outbyte>>5) & 0x01),
-   //   ((outbyte>>6) & 0x01),
-   //   ((outbyte>>7) & 0x01));
-
-//      printf("add->%04x, data->%02x\n",address,outbyte);
-      address++;
-      //need to add roll over
+      digitalWrite(D0,d0);
+      digitalWrite(D1,d1);
+      digitalWrite(D2,d2);
+      digitalWrite(D3,d3);
+      digitalWrite(D4,d4);
+      digitalWrite(D5,d5);
+      digitalWrite(D6,d6);
+      digitalWrite(D7,d7);
+      address++;      //need to add roll over
+  //    delayMicroseconds(1);// ADD A TINY BIT OF DELAY FOR D TO SETTLE
     }
-
     digitalWrite(GREADY,1);
     while(digitalRead(GS)==0);
     digitalWrite(GREADY,0);
-    delayMicroseconds(1);
+    delayMicroseconds(4);
       pinMode(D0, INPUT);
       pinMode(D1, INPUT);
       pinMode(D2, INPUT);
@@ -152,9 +136,9 @@ void loop() {
       pinMode(D6, INPUT);
       pinMode(D7, INPUT);
   }
-  else
-  {
-    digitalWrite(GREADY,0);
-  }
+//  else
+//  {
+//    digitalWrite(GREADY,0);
+//  }
 
 }

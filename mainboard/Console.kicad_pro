@@ -386,7 +386,6 @@
         "name": "POWER",
         "nets": [
           "+12V",
-          "+3V3",
           "+5V",
           "-5V",
           "/Power/+12VIN",
@@ -394,7 +393,6 @@
           "/Power/-5VIN",
           "/Video/COMVID",
           "COMP_VID",
-          "GND",
           "VSS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
