@@ -1,40 +1,31 @@
-# Texas Instruments TI99/4A Motherboard Replacement Project
+# Texas Instruments TI99/4A Clone(ish) Project
 
-This is a work-in-progress!  I am currently tracking down errors in the schematic, and it should not be trusted as 100% accurate at this point!
+Note that this is not a working project at this point.
 
-This is based on the HackMac KiCAD schematics with corrections as I have been working through them.   All of the labels have been changed to global, as I find them far easier to work with.
+This is based Rob Krenicki's design that is based on the HackMac KiCAD schematics.  I have made several changes to the original design including:
 
-Please note that this has also been converted to KiCAD 6.x.
+* Placing 32K of 16bit wide fast ram on the board to fully populate the address space
+* Placing an EPROM on the main board that can be used as an on-board cartridge ROM
+* adding a header to allow a microcontroller to replace the GROM chips (hopefully this can be moved on-board soon)
+* replacing the video DRAM with SRAM
+* Adding ATX power support
+* Updating the Keyboard header to support a soft caps lock switch on the keyboard PCB
+* designing a Cherry MX keyboard
+* adding headers for the GROM and expansion port to support riser cards for these ports
 
 
 ## Bill of Materials
-|Quantity |Ref(s)        |Mouser Part Number  |Description                                                     
-|-----|--------------|--------------------|----------------------------------------------------------------
-| 1   |n/a |n/a |Work In Progress
+Work In Progress
 
 
 
-
-## Support Discord
-
-I have started a Discord server for more real-time technical support, as well as discussion for my various projects in progress.   You can follow this link to join:  https://discord.gg/QmFssyXnQt
-
-
-## Built With
-
-* [KiCAD EDA 6.0.1](http://www.kicad.org/)
-
-## Authors
-
-* **Rob Krenicki** - [rkrenicki](https://github.com/rkrenicki)
 
 ## License
 
-This project is licensed under the Creative Commons - Attribution - ShareAlike 3.0 License
+The original project was licensed under the Creative Commons - Attribution - ShareAlike 3.0 License
 
 ## Attribution
 
 This board was derrived from works by, uses design elements from, or contains sofware writen by the following:
+* Rob Krenicki (https://github.com/rkrenicki/TI99-Motherboard)
 * HackMac (https://bitbucket.org/hackmac/ti-schematics/wiki/Home)
-
-
