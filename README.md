@@ -1,6 +1,9 @@
 # Texas Instruments TI99/4A Clone(ish) Project
 
-Note that this is not a working project at this point.
+![System](images/two.jpg)
+
+Note that this is not a fully tested project at this point. . . .
+
 
 This is based Rob Krenicki's design that is based on the HackMac KiCAD schematics.  I have made several changes to the original design including:
 
@@ -13,6 +16,11 @@ This is based Rob Krenicki's design that is based on the HackMac KiCAD schematic
 * designing a Cherry MX keyboard
 * adding headers for the GROM and expansion port to support riser cards for these ports
 
+## ToDo
+* Much more testing . . . (I don't even have the final PCBs here yet)
+* write code for the microcontroller running the alpha lock switch toggle on the keyboard
+* design 3d printed case
+* Cleanup/Documentation
 
 ## Bill of Materials
 Work In Progress
