@@ -19,6 +19,7 @@ This is based Rob Krenicki's design that is based on the HackMac KiCAD schematic
 ## ToDo
 * Much more testing . . . (I don't even have the final PCBs here yet)
 * write code for the microcontroller running the alpha lock switch toggle on the keyboard
+* Create Custom Keycap set
 * design 3d printed case
 * Cleanup/Documentation
 
