@@ -1,39 +1,43 @@
 #include <Arduino.h>
 #include "grom.h"
 
-#define   D0 26  //25
+#define   D0 26
 #define   D1 13
 #define   D2 14
-#define   D3 25 //26
+#define   D3 25
 #define   D4 16
 #define   D5 17
 #define   D6 18
 #define   D7 19
 
-#define   GRMCLK 35 //32
+#define   GRMCLK 32
 #define   MO     34
-#define   GS     32 //35
+#define   GS     35
 #define   GREADY 27
-#define   M      39 //DBIN
+#define   M      39
+
+#define   inMask 0xf9f09fff
+#define   outMask 0x060f6000
 
 volatile bool lowByte=true;
+volatile bool readLowByte=true;
 volatile uint16_t address=0;
 volatile uint8_t dataByte;
-volatile       uint8_t d0;
-volatile       uint8_t d1;
-volatile       uint8_t d2;
-volatile       uint8_t d3;
-volatile       uint8_t d4;
-volatile       uint8_t d5;
-volatile       uint8_t d6;
-volatile       uint8_t d7;
+volatile uint16_t dataWord;
+volatile uint32_t output=0x060f6000;
+volatile uint32_t temp;
 
 volatile       uint8_t mo;
 volatile       uint8_t m;
 volatile       uint8_t outbyte;
 
+void incrementAddress();
+void outGromData();
 
 void setup() {
+  pinMode(GREADY,OUTPUT_OPEN_DRAIN );
+  digitalWrite(GREADY,0);
+
   pinMode(D0, INPUT);
   pinMode(D1, INPUT);
   pinMode(D2, INPUT);
@@ -46,33 +50,24 @@ void setup() {
   pinMode(GRMCLK, INPUT);
   pinMode(MO, INPUT);
   pinMode(GS, INPUT);
-  pinMode(GREADY,OUTPUT_OPEN_DRAIN );
   pinMode(M, INPUT);
-  digitalWrite(GREADY,0);
-//  printf("STARTUP \n");
 }
 
 void loop() {
 
-  if( digitalRead(GS)==0)
+  if(!(REG_READ(GPIO_IN1_REG) & 0x08))
   {
-      mo=digitalRead(MO);
-      m=digitalRead(M);
+      mo=REG_READ(GPIO_IN1_REG) & 0x04;
+      m=REG_READ(GPIO_IN1_REG) & 0x80;
 
     // SET ADDRESS
-    if((mo==1) && (m==0))
+    if((mo!=0) && (m==0))
     {
+      readLowByte=true;
 
-      d0=digitalRead(D0);
-      d1=digitalRead(D1);
-      d2=digitalRead(D2);
-      d3=digitalRead(D3);
-      d4=digitalRead(D4);
-      d5=digitalRead(D5);
-      d6=digitalRead(D6);
-      d7=digitalRead(D7);
+      dataWord= (REG_READ(GPIO_IN_REG)>>12);
+      dataByte=(dataWord & 0xf6) + ((dataWord>>14)&0x01) + ((dataWord>>10)&0x08);
 
-      dataByte = d0 | (d1 << 1) | (d2 << 2) | (d3 << 3) | (d4 << 4) | (d5 << 5) | (d6 << 6) | (d7 << 7);
       if(lowByte)
       {
         address=(dataByte <<8);
@@ -82,63 +77,99 @@ void loop() {
       {
         address=address | dataByte;
         lowByte=true;
-     //   printf("address->%04x\n",address);
       }
     }
 
     // Read Address
-    if((mo==1) && (m==1))
+    if((mo!=0) && (m!=0))
     {
      lowByte=true;
+     if(readLowByte)
+     {
+        outbyte=((address+1)&0xff00)>>8;
+        readLowByte=false;
+     }
+     else
+     {
+      outbyte=(address+1)&0xff;
+      readLowByte=true;
+     }
+      temp=REG_READ(GPIO_ENABLE_REG);
+      REG_WRITE(GPIO_ENABLE_REG,(temp | outMask));
+      outGromData();
+    }
+
+    // write Data
+    if((mo==0) && (m==0))
+    {
+      readLowByte=true;
+      lowByte=true;
+      incrementAddress();
     }
 
     // Read Data
-    if((mo==0) && (m==1))
+    if((mo==0) && (m!=0))
     {
-      outbyte=GROM[address];
-      d0=outbyte & 0x01;
-      d1=(outbyte>>1) & 0x01;
-      d2=(outbyte>>2) & 0x01;
-      d3=(outbyte>>3) & 0x01;
-      d4=(outbyte>>4) & 0x01;
-      d5=(outbyte>>5) & 0x01;
-      d6=(outbyte>>6) & 0x01;
-      d7=(outbyte>>7) & 0x01;
-      pinMode(D0, OUTPUT);
-      pinMode(D1, OUTPUT);
-      pinMode(D2, OUTPUT);
-      pinMode(D3, OUTPUT);
-      pinMode(D4, OUTPUT);
-      pinMode(D5, OUTPUT);
-      pinMode(D6, OUTPUT);
-      pinMode(D7, OUTPUT);
-      digitalWrite(D0,d0);
-      digitalWrite(D1,d1);
-      digitalWrite(D2,d2);
-      digitalWrite(D3,d3);
-      digitalWrite(D4,d4);
-      digitalWrite(D5,d5);
-      digitalWrite(D6,d6);
-      digitalWrite(D7,d7);
-      address++;      //need to add roll over
-  //    delayMicroseconds(1);// ADD A TINY BIT OF DELAY FOR D TO SETTLE
+      readLowByte=true;
+      lowByte=true;
+      if(((address>=0x0000) && (address<=0x17ff)) || ((address>=0x2000) && (address<=0x37ff)) || ((address>=0x4000) && (address<=0x57ff)) )
+      {
+        outbyte=GROM[address];
+        temp=REG_READ(GPIO_ENABLE_REG);
+        REG_WRITE(GPIO_ENABLE_REG,(temp | outMask));
+        outGromData();
+      }
+     incrementAddress();
     }
-    digitalWrite(GREADY,1);
-    while(digitalRead(GS)==0);
-    digitalWrite(GREADY,0);
-    delayMicroseconds(4);
-      pinMode(D0, INPUT);
-      pinMode(D1, INPUT);
-      pinMode(D2, INPUT);
-      pinMode(D3, INPUT);
-      pinMode(D4, INPUT);
-      pinMode(D5, INPUT);
-      pinMode(D6, INPUT);
-      pinMode(D7, INPUT);
-  }
-//  else
-//  {
-//    digitalWrite(GREADY,0);
-//  }
 
+
+    REG_WRITE(GPIO_OUT_W1TS_REG, BIT27);
+    while(!(REG_READ(GPIO_IN1_REG) & 0x08));
+    REG_WRITE(GPIO_OUT_W1TC_REG, BIT27);
+
+    temp=REG_READ(GPIO_ENABLE_REG);
+    REG_WRITE(GPIO_ENABLE_REG,(temp & inMask));
+  }
+
+}
+
+
+void incrementAddress()
+{
+   address++;
+      switch(address)
+      {
+        case 0x1800:
+            address=0x0000;
+            break;
+        case 0x3800:
+            address=0x2000;
+            break;
+        case 0x5800:
+            address=0x4000;
+            break;
+        case 0x7800:
+            address=0x6000;
+            break;
+        case 0x9800:
+            address=0x8000;
+            break;
+        case 0xb800:
+            address=0xa000;
+            break;
+        case 0xd800:
+            address=0xc000;
+            break;
+        case 0xf800:
+            address=0xe000;
+            break;
+        }
+}
+
+void outGromData()
+{
+    output=0x060f6000;
+    REG_WRITE(GPIO_OUT_W1TC_REG, output);
+    output=((outbyte&0xf6)<<12) + ((outbyte&0x1)<<26)+ ((outbyte&0x8)<<22);
+    REG_WRITE(GPIO_OUT_W1TS_REG, output);
 }
