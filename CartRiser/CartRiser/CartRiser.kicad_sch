@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (date "2022-10-16")
-    (rev "V0.5")
+    (date "2022-10-25")
+    (rev "V0.8")
   )
 
   (lib_symbols
@@ -1386,23 +1386,6 @@
     (pin "1" (uuid 0a411ccf-aacb-4800-9e17-ce3d81e29816))
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 175.26 24.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 9531e3b7-9ead-4c2b-8c41-d537cec59bca)
-    (property "Reference" "H1" (id 0) (at 177.8 23.2953 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (id 1) (at 177.8 25.8322 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 175.26 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 175.26 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "power:+5V") (at 90.17 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9e921932-3524-4f1a-9da7-952a284c31cb)
@@ -1437,23 +1420,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid eb6122c6-8027-4677-957e-8d4a8859e1fd))
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 175.26 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid b495def4-6f53-46c5-8eb0-a8a672e1e46a)
-    (property "Reference" "H3" (id 0) (at 177.8 33.4553 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (id 1) (at 177.8 35.9922 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 175.26 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 175.26 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
   )
 
   (symbol (lib_id "power:+5V") (at 105.41 121.92 90) (unit 1)
@@ -1554,14 +1520,8 @@
     (path "/244337c1-7736-44a5-9f4c-c6bf63246f21"
       (reference "#PWR010") (unit 1) (value "GND") (footprint "")
     )
-    (path "/9531e3b7-9ead-4c2b-8c41-d537cec59bca"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
-    )
     (path "/861fbb17-591d-457c-9be7-67b5220b8352"
       (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
-    )
-    (path "/b495def4-6f53-46c5-8eb0-a8a672e1e46a"
-      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/c4ce91bc-b6af-41ae-ba88-1d7353127ac0"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")

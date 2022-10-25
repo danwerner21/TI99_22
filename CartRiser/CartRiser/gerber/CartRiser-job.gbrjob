@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "(6.0.6)"
     },
-    "CreationDate": "2022-10-16T14:55:51-05:00"
+    "CreationDate": "2022-10-25T09:25:14-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "CartRiser",
       "GUID": "43617274-5269-4736-9572-2e6b69636164",
-      "Revision": "rev?"
+      "Revision": ".8"
     },
     "Size": {
-      "X": 46.1,
-      "Y": 77.1
+      "X": 17.5,
+      "Y": 69.9
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,

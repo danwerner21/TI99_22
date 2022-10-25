@@ -381,7 +381,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "CartRiser.dsn",
       "step": "",
       "vrml": ""
     },
