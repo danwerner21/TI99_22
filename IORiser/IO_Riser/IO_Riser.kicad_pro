@@ -380,7 +380,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "IO_Riser.dsn",
       "step": "",
       "vrml": ""
     },

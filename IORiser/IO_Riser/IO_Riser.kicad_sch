@@ -6,8 +6,8 @@
 
   (title_block
     (title "TI/99_22 IO RISER")
-    (date "2022-10-16")
-    (rev "V0.5")
+    (date "2022-10-25")
+    (rev "V0.8")
   )
 
   (lib_symbols
@@ -1257,40 +1257,6 @@
     (pin "1" (uuid 14c2bcf9-cd7b-47fe-bf34-9b353c0d9fcf))
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 220.98 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 24681ed6-9547-406f-9e72-569030d43eba)
-    (property "Reference" "H1" (id 0) (at 223.52 37.2653 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (id 1) (at 223.52 39.8022 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 220.98 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 220.98 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 220.98 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 32ffb722-4d9e-40d6-b6a9-b8ee8f789477)
-    (property "Reference" "H2" (id 0) (at 223.52 43.6153 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (id 1) (at 223.52 46.1522 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 220.98 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 220.98 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "Mechanical:MountingHole") (at 220.98 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 35c14355-7297-4f7d-bb96-a3e22ccf81bd)
@@ -1584,12 +1550,6 @@
     )
     (path "/e345a739-3ea6-4ada-b291-47f1547e6a01"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/24681ed6-9547-406f-9e72-569030d43eba"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
-    )
-    (path "/32ffb722-4d9e-40d6-b6a9-b8ee8f789477"
-      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/35c14355-7297-4f7d-bb96-a3e22ccf81bd"
       (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
