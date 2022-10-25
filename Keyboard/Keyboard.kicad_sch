@@ -2480,7 +2480,7 @@
     (property "Value" "Computer" (id 1) (at 254.762 58.8522 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x18_P1.00mm_Vertical" (id 2) (at 252.73 55.88 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" (id 2) (at 252.73 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 252.73 55.88 0)
@@ -2858,7 +2858,7 @@
       (reference "H6") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad")
     )
     (path "/16537748-b085-4a35-a86b-8164f54e385b"
-      (reference "J1") (unit 1) (value "Computer") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x18_P1.00mm_Vertical")
+      (reference "J1") (unit 1) (value "Computer") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical")
     )
     (path "/c88be24d-5c7c-404a-9f9c-08aa383122b0"
       (reference "R1") (unit 1) (value "470Ω") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")

@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 731)
+    (start_pass_no 1777)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -72,7 +72,7 @@
   )
   (class default
     PB7 PB6 PB5 PB4 PB3 PB2 PB1 PB0
-    PA6 PA5 PA4 PA3 PA2 PA1 PA0 "Net-(R1-Pad1)"
+    PA6 PA5 PA4 PA3 PA2 PA1 PA0 "Net-(D1-Pad2)"
     "Net-(D2-Pad2)" ~{RESET} LOCK "unconnected-(U1-Pad3)" "Net-(D1-Pad1)"
     (clearance_class default)
     (via_rule default)

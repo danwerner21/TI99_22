@@ -414,8 +414,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "Console.dsn",
-      "step": "",
-      "vrml": ""
+      "step": "C:/Users/dwerner/OneDrive/Desktop/Console.step",
+      "vrml": "C:/Users/dwerner/OneDrive/Desktop/Console.wrl"
     },
     "page_layout_descr_file": ""
   },

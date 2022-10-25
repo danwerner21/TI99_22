@@ -424,10 +424,10 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "C:/Program Files/KiCad/6.0/",
       "specctra_dsn": "Keyboard.dsn",
-      "step": "",
-      "vrml": ""
+      "step": "C:/Users/dwerner/OneDrive/Desktop/Keyboard.step",
+      "vrml": "C:/Users/dwerner/OneDrive/Desktop/Keyboard.wrl"
     },
     "page_layout_descr_file": ""
   },
