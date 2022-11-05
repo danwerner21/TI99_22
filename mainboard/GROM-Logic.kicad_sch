@@ -2967,7 +2967,7 @@
   (symbol (lib_id "Connector:Conn_01x16_Male") (at 132.08 151.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 736a4e31-8c5f-4328-b4bf-adb0bab66713)
-    (property "Reference" "J5" (id 0) (at 132.7912 151.5653 0)
+    (property "Reference" "J4" (id 0) (at 132.7912 151.5653 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "UNICORN PORT" (id 1) (at 127 129.54 0)

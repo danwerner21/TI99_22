@@ -1075,77 +1075,65 @@
     (path "/00000000-0000-0000-0000-0000560f49b9/a6b09ddc-c2c7-401d-b1c8-bb7089f3d537"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
-    (path "/00000000-0000-0000-0000-0000560f49b9/20d2292f-23e4-471a-af3d-208062690664"
+    (path "/00000000-0000-0000-0000-0000560f49b9/c07a3c3e-d041-4281-bf40-f3e8b53a7ed4"
       (reference "H5") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
-    (path "/00000000-0000-0000-0000-0000560f49b9/c07a3c3e-d041-4281-bf40-f3e8b53a7ed4"
+    (path "/00000000-0000-0000-0000-0000560f49b9/4149796c-6b1e-42a3-991d-712bca9bdc20"
       (reference "H6") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
-    (path "/00000000-0000-0000-0000-0000560f49b9/4149796c-6b1e-42a3-991d-712bca9bdc20"
-      (reference "H7") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
-    )
-    (path "/00000000-0000-0000-0000-0000560f49b9/64ca5261-d416-48ee-9cc4-9cc3fc9b000e"
-      (reference "H8") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
-    )
-    (path "/00000000-0000-0000-0000-0000560f49b9/b8e3e1f7-51bd-49be-b1bc-433918c68e85"
-      (reference "H9") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
-    )
     (path "/00000000-0000-0000-0000-0000560f49b9/9deec711-0a64-4a3b-b28f-301f31093230"
-      (reference "H10") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H7") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/00000000-0000-0000-0000-000056085f00/65edae75-f857-4d01-8ae5-386feebac26a"
       (reference "J1") (unit 1) (value "Reset") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-0000560f49b9/6758f891-a65a-40bf-aaf3-dd05b972b47a"
-      (reference "J2") (unit 1) (value "Power sw") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-0000560f49b9/cebe3a9c-69cf-4d33-a603-1273e94eae6d"
-      (reference "J3") (unit 1) (value "Power LED") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Power LED") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-0000560f49b9/3f9b4ddb-9504-49b8-86a8-e73f3deb488a"
-      (reference "J4") (unit 1) (value "ATX-20") (footprint "Library:ATX_20")
+    (path "/00000000-0000-0000-0000-0000560f49b9/f915604a-8bc5-4681-8ac2-c6204e2932aa"
+      (reference "J3") (unit 1) (value "POWER") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00278_1x04_P5.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000056079ced/736a4e31-8c5f-4328-b4bf-adb0bab66713"
-      (reference "J5") (unit 1) (value "UNICORN PORT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical")
+      (reference "J4") (unit 1) (value "UNICORN PORT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000561cdf3b/a69abb9f-0646-4992-b624-e25d1804dfd3"
-      (reference "J6") (unit 1) (value "ROM Select") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "ROM Select") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000561cdf3b/078c76db-92f6-4f81-86fe-330544c3cdc3"
-      (reference "J7") (unit 1) (value "ROM Select") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "J6") (unit 1) (value "ROM Select") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000561cdf3b/4de243ff-b575-47eb-ba59-28e248068f35"
-      (reference "J8") (unit 1) (value "AUDIO OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J7") (unit 1) (value "AUDIO OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000560e4e44/97690cfa-564b-4355-91b1-b225cfb060c1"
-      (reference "J9") (unit 1) (value "VIDEO OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J8") (unit 1) (value "VIDEO OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/00000000-0000-0000-0000-000056199f7c"
-      (reference "J10") (unit 1) (value "Cassette") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm")
+      (reference "J9") (unit 1) (value "Cassette") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/00000000-0000-0000-0000-000056193636"
-      (reference "J11") (unit 1) (value "Joystick") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm")
+      (reference "J10") (unit 1) (value "Joystick") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/3c9cdb01-9e3b-4871-ba10-0477d7e8c8ae"
-      (reference "J12") (unit 1) (value "Keyboard") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical")
+      (reference "J11") (unit 1) (value "Keyboard") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000560691d6/a57cdeea-9106-4124-aca6-bfaffd5015b7"
-      (reference "J13") (unit 1) (value "I/O Port") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x22_P2.54mm_Vertical")
+      (reference "J12") (unit 1) (value "I/O Port") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x22_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000560691d6/00000000-0000-0000-0000-0000560663b8"
-      (reference "J14") (unit 1) (value "I/O Port") (footprint "Library:CardEdge_44Pin_2.54mm_Vertical")
+      (reference "J13") (unit 1) (value "I/O Port") (footprint "Library:CardEdge_44Pin_2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000560691d6/00000000-0000-0000-0000-000056066400"
-      (reference "J15") (unit 1) (value "GROM Port") (footprint "Library:CardEdge_34Pin_2.54mm_Vertical")
+      (reference "J14") (unit 1) (value "GROM Port") (footprint "Library:CardEdge_34Pin_2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000560691d6/c6772e8e-1960-44aa-8d9f-db6161e8adb6"
-      (reference "J16") (unit 1) (value "GROM Port") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
+      (reference "J15") (unit 1) (value "GROM Port") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
     )
     (path "/0479bcf4-aa47-4c0e-84b6-cb1b42828ccd/077bc96c-c044-4ea8-bfd0-2c5133f61849"
-      (reference "J17") (unit 1) (value "Rom Select 1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "J16") (unit 1) (value "Rom Select 1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/0479bcf4-aa47-4c0e-84b6-cb1b42828ccd/8016d467-253d-4226-99e1-e06ffa0cefb9"
-      (reference "J18") (unit 1) (value "Rom Select 2") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "J17") (unit 1) (value "Rom Select 2") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000056085f00/00000000-0000-0000-0000-0000560b5336"
       (reference "L1") (unit 1) (value "0.33µH") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")

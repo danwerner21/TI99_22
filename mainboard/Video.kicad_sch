@@ -3808,7 +3808,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 137.16 175.26 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 97690cfa-564b-4355-91b1-b225cfb060c1)
-    (property "Reference" "J9" (id 0) (at 137.8712 172.2628 0)
+    (property "Reference" "J8" (id 0) (at 137.8712 172.2628 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "VIDEO OUT" (id 1) (at 137.8712 174.5742 0)
