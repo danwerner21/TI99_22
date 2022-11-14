@@ -10,6 +10,7 @@
 #define   D6 18
 #define   D7 19
 
+#define   RESET  33
 #define   GRMCLK 32
 #define   MO     34
 #define   GS     35
@@ -38,6 +39,9 @@ void setup() {
   pinMode(GREADY,OUTPUT_OPEN_DRAIN );
   digitalWrite(GREADY,0);
 
+  pinMode(RESET,OUTPUT);
+  digitalWrite(RESET,0);
+
   pinMode(D0, INPUT);
   pinMode(D1, INPUT);
   pinMode(D2, INPUT);
@@ -51,6 +55,10 @@ void setup() {
   pinMode(MO, INPUT);
   pinMode(GS, INPUT);
   pinMode(M, INPUT);
+
+  delay(500);
+  digitalWrite(RESET,1);
+  pinMode(RESET,INPUT);
 }
 
 void loop() {
@@ -112,7 +120,9 @@ void loop() {
     {
       readLowByte=true;
       lowByte=true;
-      if(((address>=0x0000) && (address<=0x17ff)) || ((address>=0x2000) && (address<=0x37ff)) || ((address>=0x4000) && (address<=0x57ff)) )
+      if(((address>=0x0000) && (address<=0x17ff)) || ((address>=0x2000) && (address<=0x37ff)) || ((address>=0x4000) && (address<=0x57ff)) ||
+        ((address>=0x6000) && (address<=0x77ff)) || ((address>=0x8000) && (address<=0x97ff)) || ((address>=0xA000) && (address<=0xB7ff)) ||
+        ((address>=0xC000) && (address<=0xD7ff)) || ((address>=0xE000) && (address<=0xF7ff)) )
       {
         outbyte=GROM[address];
         temp=REG_READ(GPIO_ENABLE_REG);

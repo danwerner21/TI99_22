@@ -4022,7 +4022,7 @@
     (uuid 00000000-0000-0000-0000-0000560663b8)
     (property "Reference" "J13" (id 0) (at 123.19 40.64 0))
     (property "Value" "I/O Port" (id 1) (at 123.19 69.85 90))
-    (property "Footprint" "Library:CardEdge_44Pin_2.54mm_Vertical" (id 2) (at 123.19 92.71 0)
+    (property "Footprint" "WernerCustomLibrary:44 Pin Card Edge" (id 2) (at 123.19 92.71 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 123.19 92.71 0)

@@ -1,4 +1,4 @@
-20337246498610903
+20342246613338071
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85974,6 +85974,27 @@ varistor SIOV
 2
 2
 WernerCustomLibrary
+44 Pin Card Edge
+
+
+0
+44
+44
+WernerCustomLibrary
+Card_Edge36
+
+
+0
+36
+36
+WernerCustomLibrary
+Card_edge_44
+
+
+0
+44
+44
+WernerCustomLibrary
 ESP32_DEVKIT_30
 
 
@@ -85985,5 +86006,5 @@ HV-LV
 
 
 0
-0
-0
+12
+12

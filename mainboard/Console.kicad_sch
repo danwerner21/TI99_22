@@ -6,8 +6,8 @@
 
   (title_block
     (title "TI-99/22")
-    (date "2022-10-16")
-    (rev "0.80")
+    (date "2022-11-13")
+    (rev "0.90")
     (company "Dan Werner - https://github.com/danwerner21/ti99_22")
     (comment 1 "Main schematic for separating each function block to its own sub schematic.")
     (comment 3 "was based on the HackMac KiCAD Design")
@@ -1121,7 +1121,7 @@
       (reference "J12") (unit 1) (value "I/O Port") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x22_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000560691d6/00000000-0000-0000-0000-0000560663b8"
-      (reference "J13") (unit 1) (value "I/O Port") (footprint "Library:CardEdge_44Pin_2.54mm_Vertical")
+      (reference "J13") (unit 1) (value "I/O Port") (footprint "WernerCustomLibrary:44 Pin Card Edge")
     )
     (path "/00000000-0000-0000-0000-0000560691d6/00000000-0000-0000-0000-000056066400"
       (reference "J14") (unit 1) (value "GROM Port") (footprint "Library:CardEdge_34Pin_2.54mm_Vertical")
@@ -1152,9 +1152,6 @@
     )
     (path "/00000000-0000-0000-0000-0000560f49b9/00000000-0000-0000-0000-0000676f9bb2"
       (reference "L6") (unit 1) (value "6.8µH") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-0000560f49b9/00000000-0000-0000-0000-0000676f9bac"
-      (reference "L7") (unit 1) (value "6.8µH") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000561cdf3b/00000000-0000-0000-0000-000067601dee"
       (reference "L8") (unit 1) (value "6.8µH") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -1278,9 +1275,6 @@
     )
     (path "/00000000-0000-0000-0000-00005607ac3b/00000000-0000-0000-0000-00005621ff91"
       (reference "R17") (unit 1) (value "2.2kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-00005607ac3b/00000000-0000-0000-0000-0000561decf0"
-      (reference "R18") (unit 1) (value "1kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005607ac3b/00000000-0000-0000-0000-00005607c323"
       (reference "R19") (unit 1) (value "1kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -1532,7 +1526,7 @@
       (reference "R101") (unit 1) (value "10kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005607ac3b/cbe32a9a-7450-42c2-85dc-71cb3f31643e"
-      (reference "SW1") (unit 1) (value "RAM Size") (footprint "Package_DIP:DIP-10_W10.16mm_LongPads")
+      (reference "SW1") (unit 1) (value "RAM Size") (footprint "Package_DIP:DIP-10_W7.62mm_Socket_LongPads")
     )
     (path "/0479bcf4-aa47-4c0e-84b6-cb1b42828ccd/179cd795-da37-43fb-9dd8-3af0e3305298"
       (reference "SW2") (unit 1) (value "Internal Cart ROM Enable") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
