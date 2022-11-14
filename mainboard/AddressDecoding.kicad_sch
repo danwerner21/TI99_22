@@ -2422,7 +2422,7 @@
   (symbol (lib_id "Console-rescue:R") (at 186.69 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005607c323)
-    (property "Reference" "R19" (id 0) (at 186.69 83.82 90))
+    (property "Reference" "R18" (id 0) (at 186.69 83.82 90))
     (property "Value" "1kΩ" (id 1) (at 184.15 83.82 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 184.912 83.82 90)
       (effects (font (size 0.762 0.762)) hide)
