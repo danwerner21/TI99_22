@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 23118)
+    (start_pass_no 18579)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -61,49 +61,48 @@
   (class default
     ~{RESET} "Net-(C53-Pad2)" "Net-(C54-Pad2)" "Net-(C56-Pad1)" "Net-(C57-Pad1)" "Net-(C58-Pad1)" "Net-(C63-Pad2)" "Net-(C67-Pad2)"
     "Net-(C79-Pad1)" "Net-(C79-Pad2)" "Net-(C89-Pad1)" "Net-(C90-Pad1)" "Net-(C91-Pad1)" "Net-(C92-Pad1)" "Net-(C93-Pad1)" "Net-(C94-Pad1)"
-    "Net-(C95-Pad1)" "Net-(C96-Pad1)" "unconnected-(J4-Pad1)" "IR_A2_O" "IR_A2" "IR_A1_O" "IR_A1" "Net-(R35-Pad2)"
-    "Net-(R37-Pad2)" "Net-(R38-Pad1)" "Net-(R58-Pad2)" "Net-(R63-Pad1)" "Net-(C1-Pad1)" "Net-(C2-Pad1)" "Net-(C2-Pad2)" "Net-(C3-Pad1)"
-    "Net-(C4-Pad1)" ~{CMRESET} "Net-(C11-Pad1)" "Net-(C52-Pad1)" SNDOUT "Net-(R74-Pad1)" "Net-(R75-Pad1)" "Net-(C55-Pad1)"
-    "Net-(R85-Pad2)" "Net-(R86-Pad2)" "Net-(R87-Pad2)" "Net-(C60-Pad1)" "Net-(C63-Pad1)" "Net-(R88-Pad2)" "Net-(C67-Pad1)" "Net-(R100-Pad1)"
+    "Net-(C95-Pad1)" "Net-(C96-Pad1)" "Net-(J3-Pad3)" "IR_A2_O" "IR_A2" "IR_A1_O" "IR_A1" "Net-(L8-Pad1)"
+    "Net-(L9-Pad2)" "unconnected-(R21-Pad2)" "Net-(R23-Pad1)" "Net-(R34-Pad2)" "Net-(C1-Pad1)" "Net-(C2-Pad1)" "Net-(C2-Pad2)" "Net-(C3-Pad1)"
+    "Net-(C4-Pad1)" ~{CMRESET} "Net-(C11-Pad1)" "Net-(C52-Pad1)" SNDOUT "Net-(R74-Pad1)" "Net-(R36-Pad2)" "Net-(C55-Pad1)"
+    "Net-(R85-Pad2)" "Net-(R86-Pad2)" "Net-(R87-Pad2)" "Net-(C60-Pad1)" "Net-(C63-Pad1)" "Net-(R37-Pad1)" "Net-(C67-Pad1)" "Net-(R57-Pad2)"
     "Net-(C68-Pad1)" "Net-(C70-Pad1)" "Net-(C71-Pad1)" "Net-(C72-Pad1)" "Net-(C73-Pad1)" "Net-(C74-Pad1)" "Net-(C75-Pad1)" "Net-(C76-Pad1)"
     "Net-(C77-Pad1)" "Net-(C78-Pad1)" ~{IROMG} "Net-(U7-Pad1)" "Net-(C80-Pad1)" "Net-(C81-Pad1)" "Net-(C82-Pad1)" "Net-(C83-Pad1)"
     "Net-(C84-Pad1)" "Net-(C86-Pad1)" "Net-(C88-Pad1)" "Net-(U7-Pad12)" "Net-(U30-Pad14)" "unconnected-(U27-Pad1)" "unconnected-(U27-Pad26)" "unconnected-(U28-Pad1)"
     "unconnected-(U28-Pad26)" "unconnected-(U30-Pad35)" "unconnected-(U30-Pad38)" "Net-(CR2-Pad1)" "Net-(CR2-Pad2)" "Net-(CR3-Pad1)" "Net-(CR4-Pad1)" "Net-(D1-Pad2)"
-    "Net-(J2-Pad1)" "unconnected-(J4-Pad8)" "unconnected-(J4-Pad9)" "Net-(J4-Pad12)" "unconnected-(J4-Pad18)" "Net-(J6-Pad2)" "Net-(J7-Pad2)" "Net-(J10-Pad1)"
-    "Net-(J10-Pad6)" "Net-(J10-Pad8)" "Net-(J10-Pad9)" "unconnected-(J11-Pad1)" "Net-(J11-Pad2)" "Net-(J11-Pad3)" "Net-(J11-Pad4)" "Net-(J11-Pad5)"
-    "unconnected-(J11-Pad6)" "Net-(J11-Pad7)" "Net-(J11-Pad8)" "Net-(J11-Pad9)" "Net-(J12-Pad3)" "Net-(J12-Pad6)" "Net-(J12-Pad8)" "Net-(J12-Pad9)"
-    "Net-(J12-Pad10)" "Net-(J12-Pad11)" "Net-(J12-Pad12)" "Net-(J12-Pad13)" "Net-(J12-Pad14)" "Net-(J12-Pad15)" SBE "IO_A5"
-    "IO_A10" "IO_A4" "IO_A11" "IO_A3" "IO_A12" "READY_~{HOLD}" "IO_A8" "IO_A13"
-    "IO_A14" "IO_A7" "IO_A9" "IO_A15-CRUOUT" "IO_A2" "IO_A6" "IO_A1" "IO_A0"
-    ~{MEMEN} D7 D4 D6 D0 D5 D2 D1
-    D3 CRUIN A13 A12 A11 A10 A9 A8
-    ~{GS} A7 A3 DBIN A6 GRMCLK A5 A4
-    GREADY ~{mWE} ~{ROMG} "Net-(L9-Pad1)" "Net-(L10-Pad2)" "Net-(Q1-Pad2)" "Net-(Q2-Pad1)" "Net-(Q2-Pad2)"
-    "Net-(Q3-Pad2)" "Net-(Q4-Pad1)" "Net-(Q4-Pad2)" "Net-(Q5-Pad1)" "Net-(Q5-Pad2)" "Net-(Q6-Pad1)" "Net-(Q6-Pad2)" "Net-(Q7-Pad1)"
-    "Net-(Q7-Pad2)" "Net-(Q8-Pad2)" "Net-(Q9-Pad2)" "Net-(R2-Pad1)" /CPU/Ø1 "Net-(R5-Pad2)" /CPU/Ø2 "Net-(R6-Pad2)"
-    /CPU/Ø3 "Net-(R7-Pad2)" /CPU/Ø4 "Net-(R8-Pad2)" "Net-(R9-Pad2)" "Net-(R10-Pad2)" "Net-(R11-Pad1)" "Net-(R12-Pad1)"
-    "Net-(R13-Pad1)" "Net-(R14-Pad1)" "Net-(R15-Pad1)" "Net-(R16-Pad1)" "Net-(R17-Pad2)" ~{ROM} "Net-(R18-Pad2)" GBE
-    "unconnected-(R22-Pad2)" "Net-(R24-Pad1)" "unconnected-(U31-Pad12)" "Net-(U31-Pad13)" "Net-(U31-Pad14)" "Net-(U31-Pad15)" "Net-(U31-Pad16)" "Net-(U31-Pad17)"
-    "Net-(U31-Pad18)" "Net-(U31-Pad19)" "unconnected-(U32-Pad12)" "Net-(U32-Pad13)" "Net-(U32-Pad14)" "Net-(U32-Pad15)" ~{LOAD} EXTINT
-    SNDIN "Net-(U32-Pad16)" ~{RAM0} ~{RAM1} ~{RAM2} ~{RAM3} ~{RAM4} ~{Ø4}
-    ~{Ø3} ~{Ø1} ~{Ø2} "unconnected-(U1-Pad16)" "Net-(U1-Pad18)" "Net-(U1-Pad19)" "unconnected-(U2-Pad3)" HOLDA
-    IAQ A14 A2 A1 A0 "Net-(U2-Pad29)" CRUOUT ~{INTREQ}
-    CD0 CD1 CD2 CD3 CD4 CD5 CD6 CD7
-    CD8 CD9 CD10 CD11 CD12 CD13 CD14 CD15
-    CRUCLK ~{WE} READY ~{DBIN} "Net-(U10-Pad11)" "Net-(U14-Pad2)" A15 "Net-(U10-Pad5)"
-    "Net-(U14-Pad9)" "Net-(U15-Pad4)" "Net-(U15-Pad1)" "Net-(U14-Pad11)" "Net-(U5-Pad11)" ~{MBE} "Net-(U20-Pad2)" "Net-(U6-Pad9)"
-    "Net-(U6-Pad10)" "Net-(U6-Pad12)" "Net-(U6-Pad13)" "Net-(U32-Pad17)" "Net-(U7-Pad11)" ~{RAM} "Net-(U32-Pad18)" ~{CSW}
-    ~{CSR} "~{SOUND_SEL}" "unconnected-(U8-Pad15)" "Net-(U9-Pad13)" "Net-(U32-Pad19)" RAMBLK "Net-(U10-Pad1)" "Net-(U10-Pad2)"
-    "Net-(U10-Pad12)" /8Bit16BitSwitch/~{LSBEN} "Net-(U10-Pad8)" "Net-(U10-Pad13)" /8Bit16BitSwitch/~{MSBEN} "Net-(U14-Pad1)" "Net-(U14-Pad8)" "unconnected-(U15-Pad6)"
-    "unconnected-(U15-Pad10)" "unconnected-(U15-Pad12)" "Net-(U16-Pad4)" "unconnected-(U16-Pad6)" "unconnected-(U16-Pad8)" "unconnected-(U17-Pad6)" "unconnected-(U17-Pad7)" "unconnected-(U17-Pad12)"
-    "Net-(U17-Pad15)" "Net-(U18-Pad3)" "unconnected-(U18-Pad8)" "Net-(U20-Pad4)" "Net-(U20-Pad10)" "Net-(U21-Pad1)" VCOL "Net-(U21-Pad3)"
-    VCAS VROW VRAS VRD VRW "unconnected-(U21-Pad12)" "unconnected-(U35-Pad13)" "unconnected-(U35-Pad14)"
-    "unconnected-(U35-Pad15)" "Net-(U35-Pad21)" "Net-(U35-Pad22)" "Net-(U35-Pad26)" "unconnected-(U35-Pad37)" "unconnected-(U35-Pad38)" VAD7 VAD6
-    VAD5 VAD4 VAD3 VAD2 VAD1 VAD0 VDPINT VD7
-    VD6 VD5 VD4 VD3 VD2 VD1 VD0 "Net-(U43-Pad2)"
-    "unconnected-(U43-Pad3)" "unconnected-(U43-Pad6)" "unconnected-(U43-Pad11)" "unconnected-(U43-Pad14)" "Net-(U43-Pad15)" "~{IO_RESET}" "~{IO_EXT_INT}" "IO_DBIN"
-    "~{IO_LOAD}" "~{IO_CRUCLK}" "IO_Ø3" "~{IO_WE}" "~{IO_MBE}" "IO_CRUIN" HOLD{slash}IAQ "IO_SNDIN"
-    ~{CRUCLK} "A15-CRUOUT" "Net-(C85-Pad1)" "unconnected-(U35-Pad12)"
+    "Net-(J5-Pad2)" "Net-(J9-Pad1)" "Net-(J9-Pad6)" "Net-(J9-Pad8)" "Net-(J9-Pad9)" "Net-(J6-Pad2)" "unconnected-(J10-Pad1)" "Net-(J10-Pad2)"
+    "Net-(J10-Pad3)" "Net-(J10-Pad8)" "Net-(J10-Pad9)" "Net-(J10-Pad4)" "Net-(J10-Pad5)" "Net-(J11-Pad3)" "unconnected-(J10-Pad6)" "Net-(J10-Pad7)"
+    "Net-(J11-Pad6)" "Net-(J11-Pad10)" "Net-(J11-Pad8)" "Net-(J11-Pad9)" "Net-(J11-Pad11)" "Net-(J11-Pad12)" "Net-(J11-Pad13)" "Net-(J11-Pad14)"
+    "Net-(J11-Pad15)" SBE "IO_A5" "IO_A10" "IO_A4" "IO_A11" "IO_A3" "IO_A12"
+    "READY_~{HOLD}" "IO_A8" "IO_A13" "IO_A14" "IO_A7" "IO_A9" "IO_A15-CRUOUT" "IO_A2"
+    "IO_A6" "IO_A1" "IO_A0" ~{MEMEN} D7 D4 D6 D0
+    D5 D2 D1 D3 CRUIN A13 A12 A11
+    A10 A9 A8 ~{GS} A7 A3 DBIN A6
+    GRMCLK A5 A4 GREADY ~{mWE} ~{ROMG} "Net-(R62-Pad1)" "Net-(R73-Pad1)"
+    "Net-(Q1-Pad2)" "Net-(Q2-Pad1)" "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(Q4-Pad1)" "Net-(Q4-Pad2)" "Net-(Q5-Pad1)" "Net-(Q5-Pad2)"
+    "Net-(Q6-Pad1)" "Net-(Q6-Pad2)" "Net-(Q7-Pad1)" "Net-(Q7-Pad2)" "Net-(Q8-Pad2)" "Net-(Q9-Pad2)" "Net-(R2-Pad1)" /CPU/Ø1
+    "Net-(R5-Pad2)" /CPU/Ø2 "Net-(R6-Pad2)" /CPU/Ø3 "Net-(R7-Pad2)" /CPU/Ø4 "Net-(R8-Pad2)" "Net-(R9-Pad2)"
+    "Net-(R10-Pad2)" "Net-(R11-Pad1)" "Net-(R12-Pad1)" "Net-(R13-Pad1)" "Net-(R14-Pad1)" "Net-(R15-Pad1)" "Net-(R16-Pad1)" "Net-(R17-Pad2)"
+    ~{ROM} GBE "Net-(R84-Pad2)" "Net-(R99-Pad1)" "unconnected-(U31-Pad12)" "Net-(U31-Pad13)" "Net-(U31-Pad14)" "Net-(U31-Pad15)"
+    "Net-(U31-Pad16)" "Net-(U31-Pad17)" "Net-(U31-Pad18)" "Net-(U31-Pad19)" "unconnected-(U32-Pad12)" "Net-(U32-Pad13)" "Net-(U32-Pad14)" "Net-(U32-Pad15)"
+    ~{LOAD} EXTINT SNDIN "Net-(U32-Pad16)" ~{RAM0} ~{RAM1} ~{RAM2} ~{RAM3}
+    ~{RAM4} ~{Ø4} ~{Ø3} ~{Ø1} ~{Ø2} "unconnected-(U1-Pad16)" "Net-(U1-Pad18)" "Net-(U1-Pad19)"
+    "unconnected-(U2-Pad3)" HOLDA IAQ A14 A2 A1 A0 "Net-(U2-Pad29)"
+    CRUOUT ~{INTREQ} CD0 CD1 CD2 CD3 CD4 CD5
+    CD6 CD7 CD8 CD9 CD10 CD11 CD12 CD13
+    CD14 CD15 CRUCLK ~{WE} READY ~{DBIN} "Net-(U10-Pad11)" "Net-(U14-Pad2)"
+    A15 "Net-(U10-Pad5)" "Net-(U14-Pad9)" "Net-(U15-Pad4)" "Net-(U15-Pad1)" "Net-(U14-Pad11)" "Net-(U5-Pad11)" ~{MBE}
+    "Net-(U20-Pad2)" "Net-(U6-Pad9)" "Net-(U6-Pad10)" "Net-(U6-Pad12)" "Net-(U6-Pad13)" "Net-(U32-Pad17)" "Net-(U7-Pad11)" ~{RAM}
+    "Net-(U32-Pad18)" ~{CSW} ~{CSR} "~{SOUND_SEL}" "unconnected-(U8-Pad15)" "Net-(U9-Pad13)" "Net-(U32-Pad19)" RAMBLK
+    "Net-(U10-Pad1)" "Net-(U10-Pad2)" "Net-(U10-Pad12)" /8Bit16BitSwitch/~{LSBEN} "Net-(U10-Pad8)" "Net-(U10-Pad13)" /8Bit16BitSwitch/~{MSBEN} "Net-(U14-Pad1)"
+    "Net-(U14-Pad8)" "unconnected-(U15-Pad6)" "unconnected-(U15-Pad10)" "unconnected-(U15-Pad12)" "Net-(U16-Pad4)" "unconnected-(U16-Pad6)" "unconnected-(U16-Pad8)" "unconnected-(U17-Pad6)"
+    "unconnected-(U17-Pad7)" "unconnected-(U17-Pad12)" "Net-(U17-Pad15)" "Net-(U18-Pad3)" "unconnected-(U18-Pad8)" "Net-(U20-Pad4)" "Net-(U20-Pad10)" "Net-(U21-Pad1)"
+    VCOL "Net-(U21-Pad3)" VCAS VROW VRAS VRD VRW "unconnected-(U21-Pad12)"
+    "unconnected-(U35-Pad13)" "unconnected-(U35-Pad14)" "unconnected-(U35-Pad15)" "Net-(U35-Pad21)" "Net-(U35-Pad22)" "Net-(U35-Pad26)" "unconnected-(U35-Pad37)" "unconnected-(U35-Pad38)"
+    VAD7 VAD6 VAD5 VAD4 VAD3 VAD2 VAD1 VAD0
+    VDPINT VD7 VD6 VD5 VD4 VD3 VD2 VD1
+    VD0 "Net-(U43-Pad2)" "unconnected-(U43-Pad3)" "unconnected-(U43-Pad6)" "unconnected-(U43-Pad11)" "unconnected-(U43-Pad14)" "Net-(U43-Pad15)" "~{IO_RESET}"
+    "~{IO_EXT_INT}" "IO_DBIN" "~{IO_LOAD}" "~{IO_CRUCLK}" "IO_Ø3" "~{IO_WE}" "~{IO_MBE}" "IO_CRUIN"
+    HOLD{slash}IAQ "IO_SNDIN" ~{CRUCLK} "A15-CRUOUT" "Net-(C85-Pad1)" "unconnected-(U35-Pad12)"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -124,8 +123,8 @@
     )
   )
   (class POWER
-    +5V "-5V" VSS +12V /Video/COMVID /Power/+5VIN /Power/+12VIN "/Power/-5VIN"
-    "COMP_VID" "VRAM_BANK"
+    +5V "-5V" VSS +12V /Video/COMVID /Power/+12VIN "/Power/-5VIN" "COMP_VID"
+    "VRAM_BANK"
     (clearance_class POWER)
     (via_rule POWER)
     (rule

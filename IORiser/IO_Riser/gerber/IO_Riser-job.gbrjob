@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "(6.0.6)"
     },
-    "CreationDate": "2022-10-25T12:39:07-05:00"
+    "CreationDate": "2022-11-20T10:14:26-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "IO_Riser",
       "GUID": "494f5f52-6973-4657-922e-6b696361645f",
-      "Revision": "V0.8"
+      "Revision": "V0.9"
     },
     "Size": {
-      "X": 21.2,
-      "Y": 81.7
+      "X": 77.0,
+      "Y": 58.6
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.508,

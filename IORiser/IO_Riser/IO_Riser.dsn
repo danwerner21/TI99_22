@@ -21,9 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  160300 -55400  169600 -55400  169600 -113900  160300 -113900
-            160300 -125600  139700 -125600  139700 -43200  160300 -43200
-            160300 -55400)
+      (path pcb 0  169600 -113900  92700 -113900  92700 -55400  169600 -55400
+            169600 -113900)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -38,11 +37,11 @@
       (place J2 154512.500000 -126210.000000 front 90.000000 (PN "I/O Port"))
     )
     (component MountingHole:MountingHole_3.2mm_M3
-      (place H4 154200.000000 -48700.000000 front 0.000000 (PN MountingHole))
-      (place H3 154200.000000 -119800.000000 front 0.000000 (PN MountingHole))
+      (place H4 145500.000000 -63900.000000 front 0.000000 (PN MountingHole))
+      (place H3 145500.000000 -103200.000000 front 0.000000 (PN MountingHole))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x22_P2.54mm_Vertical
-      (place J1 143000.000000 -57200.000000 front 0.000000 (PN "I/O Port"))
+      (place J1 97800.000000 -85500.000000 front 90.000000 (PN "I/O Port"))
     )
   )
   (library
@@ -50,14 +49,14 @@
       (outline (path signal 120  12320 -14790  12320 -5840))
       (outline (path signal 120  70810 -5840  71210 -5840))
       (outline (path signal 120  70810 -14790  70810 -5840))
-      (outline (path signal 50  71000 -15000  71000 -5610))
-      (outline (path signal 50  12000 -5610  71000 -5610))
       (outline (path signal 50  12000 -5610  12000 -15000))
       (outline (path signal 50  71000 -15000  12000 -15000))
-      (outline (path signal 100  12000 -14750  12000 -5860))
+      (outline (path signal 50  71000 -15000  71000 -5610))
+      (outline (path signal 50  12000 -5610  71000 -5610))
       (outline (path signal 100  70750 -14750  12000 -14750))
       (outline (path signal 100  12000 -5860  70750 -5860))
       (outline (path signal 100  70750 -5860  70750 -14750))
+      (outline (path signal 100  12000 -14750  12000 -5860))
       (pin Rect[B]Pad_1780x7620_um 1 14870 -10940)
       (pin Rect[T]Pad_1780x7620_um 2 14870 -10940)
       (pin Rect[B]Pad_1780x7620_um 3 17410 -10940)
