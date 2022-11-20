@@ -1,0 +1,17 @@
+Qty	Reference(s)	Value	Part
+1	C1	0.1uF	Capacitor
+1	D1	LED	LED
+1	D2	LED	LED
+1	J1	Pin Header 1x18 male	Pin Header 1x18 male
+2	"R1, R2"	470 ohm	Resistor
+1	R3	1K ohm	Resistor
+48	SW1-SW48	Mechanical Switch	Cherry MX Switch (or compatible)
+1	U1	ATtiny13A-P	IC
+1	U2	74LS125	IC
+3		Switch Stabilizer 2.25	
+1		Switch Stabilizer 6.25	
+1		Optional Alignment frame (will need modified)	
+			
+	Stabilizers (frame not used):	https://www.amazon.com/Genuine-Cherry-PCB-Snap-Stabilizers/dp/B085T8QZJC	
+	Stabilizers (Frame used)	https://www.amazon.com/dp/B082X4V9VC	
+	Frame:	https://www.amazon.com/gp/product/B07MMB33WG	

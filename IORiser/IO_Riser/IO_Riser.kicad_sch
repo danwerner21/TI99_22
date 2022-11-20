@@ -6,8 +6,8 @@
 
   (title_block
     (title "TI/99_22 IO RISER")
-    (date "2022-10-25")
-    (rev "V0.8")
+    (date "2022-11-19")
+    (rev "V0.9")
   )
 
   (lib_symbols
@@ -1362,7 +1362,7 @@
     (uuid c1730664-01c9-4ced-8530-639cede4365b)
     (property "Reference" "J2" (id 0) (at 160.02 46.99 0))
     (property "Value" "I/O Port" (id 1) (at 160.02 76.2 90))
-    (property "Footprint" "WernerCustomLibrary:Card_edge_44" (id 2) (at 160.02 99.06 0)
+    (property "Footprint" "WernerCustomLibrary:44 Pin Card Edge" (id 2) (at 160.02 99.06 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 160.02 99.06 0)
@@ -1561,7 +1561,7 @@
       (reference "J1") (unit 1) (value "I/O Port") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x22_P2.54mm_Vertical")
     )
     (path "/c1730664-01c9-4ced-8530-639cede4365b"
-      (reference "J2") (unit 1) (value "I/O Port") (footprint "WernerCustomLibrary:Card_edge_44")
+      (reference "J2") (unit 1) (value "I/O Port") (footprint "WernerCustomLibrary:44 Pin Card Edge")
     )
   )
 )

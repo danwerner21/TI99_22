@@ -6,8 +6,8 @@
 
   (title_block
     (title "TI-99/22")
-    (date "2022-10-11")
-    (rev "0.76")
+    (date "2022-11-19")
+    (rev "0.9")
     (company "Dan Werner - https://github.com/danwerner21/ti99_22")
     (comment 1 "Schematic for Keyboard, Joystick and Cassette port.")
     (comment 3 "was based on the HackMac KiCAD Design")
@@ -4946,7 +4946,7 @@
     (property "Value" "Joystick" (id 1) (at 259.08 97.79 90)
       (effects (font (size 1.778 1.778)))
     )
-    (property "Footprint" "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm" (id 2) (at 254 97.79 0)
+    (property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" (id 2) (at 254 97.79 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 254 97.79 0)
@@ -5420,7 +5420,7 @@
     (property "Value" "Cassette" (id 1) (at 259.08 48.26 90)
       (effects (font (size 1.778 1.778)))
     )
-    (property "Footprint" "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm" (id 2) (at 254 49.53 0)
+    (property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" (id 2) (at 254 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 254 49.53 0)

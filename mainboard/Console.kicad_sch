@@ -1112,10 +1112,10 @@
       (reference "J8") (unit 1) (value "VIDEO OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/00000000-0000-0000-0000-000056199f7c"
-      (reference "J9") (unit 1) (value "Cassette") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm")
+      (reference "J9") (unit 1) (value "Cassette") (footprint "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/00000000-0000-0000-0000-000056193636"
-      (reference "J10") (unit 1) (value "Joystick") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm")
+      (reference "J10") (unit 1) (value "Joystick") (footprint "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/3c9cdb01-9e3b-4871-ba10-0477d7e8c8ae"
       (reference "J11") (unit 1) (value "Keyboard") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical")
