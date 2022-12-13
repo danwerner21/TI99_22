@@ -388,8 +388,6 @@
           "+12V",
           "+5V",
           "-5V",
-          "/Power/+12VIN",
-          "/Power/-5VIN",
           "/Video/COMVID",
           "COMP_VID",
           "VSS"
