@@ -169,9 +169,6 @@
     (path "/00000000-0000-0000-0000-0000560f49b9/71abf7fe-dd52-4e33-8166-458521c72f37"
       (reference "#FLG05") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000056085f00/5e1e2018-6814-407a-9e72-e9fe7677169b"
-      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000056085f00/1617a9b5-46cf-4752-b78a-21e0accb16d5"
       (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -1170,9 +1167,6 @@
     )
     (path "/00000000-0000-0000-0000-000056085f00/00000000-0000-0000-0000-0000560b52c7"
       (reference "L3") (unit 1) (value "6.8µH") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-000056085f00/00000000-0000-0000-0000-0000560b946b"
-      (reference "L4") (unit 1) (value "6.8µH") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000560f49b9/00000000-0000-0000-0000-0000676f9bb8"
       (reference "L5") (unit 1) (value "6.8µH") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")

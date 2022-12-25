@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.6)"
     },
-    "CreationDate": "2022-12-13T17:17:02-06:00"
+    "CreationDate": "2022-12-25T11:50:29-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Console",
       "GUID": "436f6e73-6f6c-4652-9e6b-696361645f70",
-      "Revision": "V0.90"
+      "Revision": "V0.95"
     },
     "Size": {
       "X": 350.0508,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.508,
