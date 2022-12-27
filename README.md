@@ -25,117 +25,123 @@ This is based Rob Krenicki's design that is based on the HackMac KiCAD schematic
 
 ## Bill of Materials
 ### Console
-Qty|Reference(s)|Part|Type
----|------------|----|----
-30|C1, C9, C11, C57, C63, C70, C71, C72, C73, C74, C75, C76, C77, C78, C80, C81, C82, C84, C85, C86, C87, C88, C89, C90, C91, C92, C93, C94, C95, C96|0.001uF|Capacitor
-1|C2|22pF|Capacitor
-3|C3, C5, C58|22uF electroyltic|Electrolytic Capacitor
-38|C4, C7, C13, C14, C19, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, C53, C54, C66, C69|0.1uF|Capacitor
-1|C6|1uF|Capacitor
-8|C8, C12, C51, C62, C64, C65, C79, C83|0.01uF|Capacitor
-1|C10|100uF|Capacitor
-6|C15, C16, C17, C18, C20, C21,C52,C59|100uF electrolytic|Electrolytic Capacitor
-1|C55|12pF|Capacitor
-1|C56|56pF|Capacitor
-1|C60|220uF electrolytic|Electrolytic Capacitor
-1|C61|0.1uF|Capacitor
-1|C67|220pF|Capacitor
-1|C68|0.022uF|Capacitor
-2|CR1, CR4|1N4148|Diode
-2|CR2, CR3|1N914B|Diode
-1|D1|LED|LED
-1|J1|Pin Header 01x02 Male|Pin Header 01x02 Male
-1|J2|Pin Header 01x02 Male|Pin Header 01x02 Male
-1|J3|Screw Terminal 1x4|Screw Terminal 1x4
-1|J4|Pin Header 01x16 Male Right Angle|Pin Header 01x16 Male Right Angle
-2|J5, J6|Pin Header 01x02 Male|Pin Header 01x02 Male
-1|J7|Pin Header 01x02 Male|Pin Header 01x02 Male
-1|J8|Pin Header 01x02 Male|Pin Header 01x02 Male
-1|J9|DB9 Connector Right Angle Male|DB9 Connector Right Angle Male
-1|J10|DB9 Connector Right Angle Male|DB9 Connector Right Angle Male
-1|J11|Pin Header 01x18 Male|Pin Header 01x18 Male
-1|J12|Pin Header 2x22 Male|Pin Header 2x22 Male
-1|J14|36 Pin Edge Connector|CONN EDGE DUAL FMALE 36POS 0.100 spacing
-1|J15|Pin Header 02x18 Male|Pin Header 02x18 Male
-1|J16|Pin Header 01x03 Male|Pin Header 01x03 Male
-1|J17|Pin Header 01x03 Male|Pin Header 01x03 Male
-1|L1|0.33uH Inductor|Inductor
-9|L2, L3, L4, L12, L13, L14, L15, L16, L17|6.8uH  Inductor|Inductor
-4|L5, L6, L7, L11|6.8uH  Inductor|Inductor
-1|L8|2- 4.5uH  Inductor|Variable Inductor
-1|L9|5.8uH  Inductor|Inductor
-1|L10, L18, L19, L20, L21|INDUCTOR (BEAD)|Ferrite Bead
-8|Q1, Q3, Q4, Q5, Q6, Q7, Q8, Q9|TIS92 Transistor|Transistor
-1|Q2|2N3904  Transistor|Transistor
-1|R1|150kohm|Resistor
-11|R2, R9, R11, R18, R51, R52, R53, R54, R55, R56, R89|1kohm|Resistor
-1|R3|12kohm|Resistor
-1|R4|47kohm|Resistor
-4|R5, R6, R7, R8|22ohm|Resistor
-5|R10, R26, R88, R95, R96|4.7kohm|Resistor
-5|R12, R13, R14, R15, R16|1Kohm|Resistor
-3|R17, R91, R93|2.2kohm|Resistor
-11|R19, R30, R63, R65, R67, R69, R71, R75, R77, R79, R82|470ohm|Resistor
-1|R20|270ohm|Resistor
-1|R21|1.5kohm|Resistor Network 9 pin
-1|R22|361ohm|Resistor
-4|R23, R35, R60, R81|5.6kohm|Resistor
-4|R24, R27, R80, R83|10ohm|Resistor
-1|R25|150ohm|Resistor
-1|R28|470kohm|Resistor
-1|R29|0ohm|Resistor
-2|R31, R33|75ohm|Resistor
-1|R32|470ohm|Resistor
-11|R34, R40, R41, R42, R43, R44, R45, R46, R47, R48, R100|10kohm|Resistor
-2|R36, R58|6.8kohm|Resistor
-1|R37|2.2kohm|Resistor
-1|R38|200ohm|Resistor
-1|R39|120kohm|Resistor
-1|R49|39kohm|Resistor
-1|R50|6.8kohm|Resistor
-1|R57|12kohm|Resistor
-1|R59|15ohm|Resistor
-2|R61, R62|10kohm|Resistor
-2|R64, R72|1kohm|Resistor
-2|R66, R76|1.5kohm|Resistor
-2|R68, R78|270ohm|Resistor
-1|R70|9.1kohm|Resistor
-2|R73, R74|220ohm|Resistor
-4|R84, R85, R86, R87|62ohm|Resistor
-1|R90|3.3kohm|Resistor
-4|R92, R94, R97, R99|100ohm|Resistor
-1|R98|330ohm|Resistor
-1|SW1|Dip Switch 6 pos|Dip Switch 6 pos
-1|SW2|Pin Header 01x02 Male|Pin Header 01x02 Male
-1|U1|TIM9904|IC
-1|U2|TMS9900|IC
-4|U3, U15, U20, U21|74LS04|IC
-2|U4, U9|74LS32|IC
-2|U5, U8|74LS138|IC
-1|U6|74LS03|IC
-1|U7|74LS08|IC
-3|U10, U14, U18|74LS00|IC
-2|U11, U40|74LS244|IC
-1|U12|74LS373|IC
-1|U13|74LS245|IC
-1|U16|74LS74|IC
-1|U17|74LS194|IC
-1|U19|LM7905_TO220|IC
-3|U22, U23, U24|TMC0430|IC (optional, replaced by Unicorn Board only known source is from TI/994a console)
-3|U25, U26, U33|HM62256BLP|IC
-2|U27, U28|27C64|IC
-1|U29|SN76489|IC
-1|U30|TMS9918|IC
-3|U31, U32, U34|74LS574|IC
-1|U35|TMS9901|IC
-1|U36|RC4558|IC
-1|U37|74LS156|IC
-2|U38, U39|TIL119|IC
-2|U41, U42|74LS367|IC
-1|U43|74LS379|IC
-1|U44|27C010|IC
-1|Y1|48.000 MHz Crystal|Crystal
-1|Y2|10.7MHz Crystal|Crystal
+Qty|Reference(s)|Part
+---|------------|----
+6|C1, C9, C11, C58, C73, C75|0.001uF
+1|C2|22pF
+3|C3, C5, C59|22uF
+12|C4, C7, C13, C14, C20, C54, C55, C62, C64, C68, C71, C74|0.1uF
+1|C6|1uF
+7|C8, C52, C63, C65, C66, C67, C72|0.01uF
+1|C10|100uF
+1|C12|0.01uF
+7|C15, C16, C17, C19, C21, C22, C60|100uF
+30|C18, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, C51|0.1uF
+1|C53|100uF
+1|C56|12pF
+1|C57|56pF
+1|C61|220uF
+1|C69|220pF
+1|C70|0.022uF
+2|CR1, CR4|1N4148
+2|CR2, CR3|1N914B
+1|D1|LED
+1|J1|Connector PinHeader 2.54mm:PinHeader 1x02 P2.54mm Vertical
+1|J2|Connector PinHeader 2.54mm:PinHeader 1x02 P2.54mm Vertical
+1|J3|TerminalBlock RND:TerminalBlock RND 205-00278 1x04 P5.00mm Vertical
+1|J4|Connector PinHeader 2.54mm:PinHeader 1x16 P2.54mm Vertical
+2|J5, J6|Connector PinHeader 2.54mm:PinHeader 1x03 P2.54mm Vertical
+1|J7|Connector PinHeader 2.54mm:PinHeader 1x03 P2.54mm Vertical
+1|J8|Connector PinHeader 2.54mm:PinHeader 1x02 P2.54mm Vertical
+1|J9|Connector PinHeader 2.54mm:PinHeader 1x02 P2.54mm Vertical
+1|J10|Connector Dsub:DSUB-9 Female Horizontal P2.77x2.84mm EdgePinOffset4.94mm Housed MountingHolesOffset7.48mm
+1|J11|Connector PinHeader 2.54mm:PinHeader 1x18 P2.54mm Vertical
+1|J12|Connector PinHeader 2.54mm:PinHeader 2x22 P2.54mm Vertical
+1|J13|WernerCustomLibrary:44 Pin Card Edge
+1|J14|Library:CardEdge 34Pin 2.54mm Vertical
+1|J15|Connector PinHeader 2.54mm:PinHeader 2x18 P2.54mm Vertical
+1|J16|Connector PinSocket 2.54mm:PinSocket 1x03 P2.54mm Vertical
+1|J17|Connector PinSocket 2.54mm:PinSocket 1x03 P2.54mm Vertical
+1|J18|Connector Dsub:DSUB-9 Female Horizontal P2.77x2.84mm EdgePinOffset4.94mm Housed MountingHolesOffset7.48mm
+1|L1|0.33uH
+2|L4, L5|6.8uH
+1|L7|5.8uH
+1|L8|INDUCTOR (Ferrite BEAD)
+7|L10, L11, L12, L13, L14, L15, L16|8.2uH
+3|Q1, Q3, Q4|TIS92
+1|Q2|2N3904
+1|R1|150k
+7|R2, R9, R11, R18, R34, R35, R46|1k
+1|R3|12k
+1|R4|47k
+4|R5, R6, R7, R8|22
+5|R10, R26, R45, R52, R53|4.7k
+5|R12, R13, R14, R15, R16|1K
+3|R17, R48, R50|2.2k
+2|R19, R30|470
+1|R20|270
+1|R21|1.5k x 9 SIP bussed
+1|R22|361
+3|R23, R73, R75|5.6k
+2|R24, R27|10
+1|R25|150
+1|R28|470k
+1|R29|0
+2|R31, R33|75
+1|R32|470
+5|R36, R37, R38, R39, R40|100k
+4|R41, R42, R43, R44|62
+1|R47|3.3k
+4|R49, R51, R54, R56|100
+1|R55|330
+1|R57|10k
+1|R58|6.8k
+1|R59|39k
+1|R60|6.8k
+4|R61, R62, R67, R68|1K
+1|R63|120k
+1|R64|2.7k
+3|R65, R66, R76|220
+1|R69|10K
+1|R70|9.1k
+2|R71, R72|10k
+1|R74|5.6K
+1|R77|15
+2|RN1, RN2|10K x 9 SIP Bussed
+1|SW1|DIP switchx05
+1|SW2|Pin Header 01x02 Male
+1|U1|TIM9904
+1|U2|TMS9900
+4|U3, U15, U22, U24|74LS04
+2|U4, U9|74LS32
+2|U5, U8|74LS138
+1|U6|74LS03
+1|U7|74LS08
+3|U10, U14, U18|74LS00
+2|U11, U41|74LS244
+1|U12|74LS373
+1|U13|74LS245
+1|U16|74LS74
+1|U17|74LS194
+1|U19|LM2901
+1|U20|LM7905 TO220
+1|U21|LM2903
+3|U26, U27, U28|TMC0430
+3|U29, U30, U37|HM62256BLP
+2|U31, U32|27C64
+1|U33|SN76489
+1|U34|TMS9918
+3|U35, U36, U38|74LS574
+1|U39|TMS9901
+1|U40|74LS156
+2|U42, U43|74LS367
+1|U44|74LS379
+1|U45|27C010
+1|U46|RC4558
+1|U47|74LS06
+2|U48, U49|TIL119
+1|Y1|48.000 MHz Crystal
+1|Y2|10.7MHz Crystal
 
 # Keyboard
 Qty|Reference(s)|Value|Part
