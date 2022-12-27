@@ -6,10 +6,10 @@
 
   (title_block
     (title "TI-99/22")
-    (date "2022-10-11")
-    (rev "0.76")
+    (date "2022-12-26")
+    (rev "0.95")
     (company "Dan Werner - https://github.com/danwerner21/ti99_22")
-    (comment 1 "Address Decoding")
+    (comment 1 "Schematic for Keyboard, Joystick and Cassette port.")
     (comment 3 "was based on the HackMac KiCAD Design")
     (comment 4 "Based Robert Krenicki's design which")
     (comment 5 "Original - https://github.com/rkrenicki/TI99-Motherboard")

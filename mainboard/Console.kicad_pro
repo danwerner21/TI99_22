@@ -498,6 +498,10 @@
     [
       "0479bcf4-aa47-4c0e-84b6-cb1b42828ccd",
       "Onboard-banked-rom"
+    ],
+    [
+      "6ebf012d-4946-4653-a76a-c2c448779487",
+      "Cassette"
     ]
   ],
   "text_variables": {}
