@@ -1,12 +1,12 @@
 
 
 /* [Box dimensions] */
-  Length        = 280;       
-  Width         = 400;                     
+  Length        = 320;       
+  Width         = 380;                     
   TopHeight        = 10;  
   BottomHeight     = 21;  
   SlopeHeight      = 20;
-  BackShelf     =130;
+  BackShelf     =170;
   Thick         = 3;//[2:5]  
 
 
@@ -34,7 +34,7 @@ FootHole        = 5;  /* 4.4 for melt in 5 for glue in */
 
 /* [STL element to export] */
 //Top shell
-  TShell        = 0;// [0:No, 1:Yes]
+  TShell        = 1;// [0:No, 1:Yes]
 //Bottom shell
   BShell        = 1;// [0:No, 1:Yes]
 // Show PCBs
@@ -209,18 +209,7 @@ module TopShell(){
                 
             }
 
-         // Serial Opening    
-            translate([-1,(Thick)+245,Thick]){
-              cube([20,20,BottomHeight-9]);
-            }   
-            
-        // Joystick Opening    
-            translate([96,20,Thick]){    
-              cube([20,Width+2,BottomHeight-9]);
-            }
-            translate([137,20,Thick]){    
-              cube([20,Width+2,BottomHeight-9]);
-            }
+
 
          // Power Switch Opening    
             translate([45,Thick-10,Thick-13]){
@@ -247,11 +236,7 @@ module TopShell(){
              rotate([0,90,0])
                     cylinder(d=7,20);
             }   
-             translate([-1,(Thick)+320,Thick-7]){
-             rotate([0,90,0])
-                    cylinder(d=7,20);
-            }   
-             translate([-1,(Thick)+335,Thick-7]){
+             translate([-1,(Thick)+325,Thick-7]){
              rotate([0,90,0])
                     cylinder(d=7,20);
             }   
@@ -323,15 +308,20 @@ module BottomShell(){
                 
         
             // Joystick Opening    
-            translate([96,-2,Thick]){    
-              cube([20,Dec_Thick+2,BottomHeight-5]);
+            translate([108,-2,Thick]){    
+              cube([40,Dec_Thick+2,BottomHeight-5]);
             }
-            translate([137,-2,Thick]){    
-              cube([20,Dec_Thick+2,BottomHeight-5]);
-            }
+           
 
-                
+            // Cassette Opening    
+            translate([-28,50,Thick]){    
+              cube([40,30,BottomHeight-5]);
+            }    
 
+            //  Expansion Opening    
+            translate([-28,285,Thick]){    
+              cube([40,80,BottomHeight-5]);
+            }  
         
             
             // Glamour Line        
@@ -444,10 +434,9 @@ module KeyboardCutout()
            rotate(a=[8,0,270])
            { 
                linear_extrude(height =15, center = false, convexity = 0, twist = 0)              
-                                polygon(points=[[20,2],[251,2],[251,24],[242,24],[242,40],[289,40],[289,81],[291,81],[291,59],[310,59],[310,40],
-                                                [332,40],[332,59],[351,59],[351,81],[336,81],[195,81],[195,100],
-                                                [73,100],[73,81],[1,81],[1,40],[28,40],[28,24],[20,24],[20,2]]
-               , paths=[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]]);                             
+                                polygon(points=[[20,4],[234,4],[234,23],[245,23],[245,39],[269,39],[269,83],[216,83],[216,100],
+                                                [54,100],[54,83],[1,83],[1,40],[28,40],[28,24],[20,24],[20,4]]
+               , paths=[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]]);                             
            }
                             
 
@@ -469,10 +458,9 @@ module KeyboardCutoutReinforcement()
            { 
                
                linear_extrude(height =5, center = false, convexity = 0, twist = 0)  
-                polygon(points=[[18,0],[253,0],[253,26],[244,26],[244,38],[290,38],[290,83],[290,83],[290,57],[308,57],[308,38],
-                                                [334,38],[334,57],[353,57],[353,83],[336,83],[197,83],[197,102],
-                                                [71,102],[71,83],[-1,83],[-1,38],[26,38],[26,26],[18,26],[18,2]]
-               , paths=[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]]);  
+                                polygon(points=[[18,2],[236,2],[236,21],[247,21],[247,37],[271,37],[271,85],[218,85],[218,102],
+                                                [52,102],[52,85],[-2,85],[-2,38],[26,38],[26,26],[18,26],[18,2]]
+               , paths=[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]]); 
        }              
      }
     }
@@ -486,18 +474,15 @@ module KeyboardFeet()
                        rotate(a=[8,0,270])
            { 
                // top row
-               translate([.8,-18.428,Thick/2]){foot(FootDia,FootHole,FootHeight+6);}
-               translate([135.8,-18.428,Thick/2]){foot(FootDia,FootHole,FootHeight+6);}
-               
-               translate([211.7,-10.128]){foot(FootDia,FootHole,FootHeight+8  );}
-               
-               translate([344.5,3.8]){foot(FootDia,FootHole,FootHeight+8  );}
+               translate([.8,-2,Thick/2]){foot(FootDia,FootHole,FootHeight+8);}
+               translate([159.9,-2,Thick/2]){foot(FootDia,FootHole,FootHeight+8);}
+               translate([270.5,-2,Thick/2]){foot(FootDia,FootHole,FootHeight+8);}
                
                //bottom row
-               translate([344.3,91.5,Thick/2]){foot(FootDia,FootHole,FootHeight+9);}
+               
                translate([270.5,91.5,Thick/2]){foot(FootDia,FootHole,FootHeight+9);}
-               translate([.8,91.5,Thick/2]){foot(FootDia,FootHole,FootHeight+9);}
-               translate([203,91.5,Thick/2]){foot(FootDia,FootHole,FootHeight+9);}
+               translate([.8   ,90.5,Thick/2]){foot(FootDia,FootHole,FootHeight+9);}
+               translate([227.8,91.5,Thick/2]){foot(FootDia,FootHole,FootHeight+9);}
                
                
                
@@ -509,65 +494,61 @@ module KeyboardFeet()
 module BottomFeet(){     
 
 //top 
-    translate([31,340,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
-       
-    translate([10,228,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
-    
-    translate([11.4,260.3,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
-    translate([11.4,326,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
-
+    translate([34.3,354.5,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
+    translate([34.3,295.4,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
     translate([10,17,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
+    
+    translate([11.9,54.5,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
+    translate([11.9,79.5,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
 
 // middle
-        translate([127,340,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
-        translate([106.5,190.5,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
-        translate([127,17,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
+        translate([151,218.7,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
+        translate([74.7,107,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
+        translate([115,18,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
+        translate([140,18,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
 
 
 //bottom       
-        translate([206,340,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
-        translate([206,17,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
+        translate([221,355.5,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
+        translate([221,17,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
 
 
-// Power Supply
-        translate([235,166,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+3.4);
-        translate([235,20,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+3.4);
+// Unicorn
+
+        translate([233.5,43.8,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
+        translate([233,134.3,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
+
+        translate([283,134.3,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
+        translate([283.5,43.8,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
 }
 
 
 module MainPCB()
 {
 rotate([0,0,90])
-    translate([-17,24,2])
+    translate([185.5,-116,4])
         color("Green",0.30)    
-            import("main_pcb.stl");
+            import("Cons1.stl");
 }
 
 
 module KeyboardPCB()
 {
-rotate([80.55,0,270])
-    translate([-194,69,-259])
+rotate([-171.55,180,270])
+    translate([156.7,-246,65])
         color("Green",0.30)    
-         import("keyboard_pcb.stl");   
+         import("keyboard.stl");   
 }
 
 
-module PowerSupplyPCB()
-{
-rotate([90,90,0])
-    translate([-13,218,-370])
-        color("Green",0.30)    
-         cube([18,35,154]); 
-}
 
 
 module UnicornPCB()
 {
-rotate([90,90,0])
-    translate([1,208,-190])
+rotate([0,0,90])
+    translate([89,-258.5,4])
         color("Green",0.30)    
-         cube([2,60,100]); 
+         import("unicorn.stl");
 }
 
 
@@ -591,8 +572,7 @@ if(ShowPCB==1)
 {
     if(BShell==1)
     {
-        MainPCB();
-        PowerSupplyPCB();
+        MainPCB();        
         UnicornPCB();
     }
     if(TShell==1)
