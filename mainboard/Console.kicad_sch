@@ -6,8 +6,8 @@
 
   (title_block
     (title "TI-99/22")
-    (date "2022-12-26")
-    (rev "0.95")
+    (date "2023-01-21")
+    (rev "0.96")
     (company "Dan Werner - https://github.com/danwerner21/ti99_22")
     (comment 1 "Schematic for Keyboard, Joystick and Cassette port.")
     (comment 3 "was based on the HackMac KiCAD Design")
@@ -1056,7 +1056,7 @@
       (reference "J9") (unit 1) (value "VIDEO OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/00000000-0000-0000-0000-000056193636"
-      (reference "J10") (unit 1) (value "Joystick") (footprint "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm")
+      (reference "J10") (unit 1) (value "Joystick") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/3c9cdb01-9e3b-4871-ba10-0477d7e8c8ae"
       (reference "J11") (unit 1) (value "Keyboard") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical")
@@ -1080,7 +1080,7 @@
       (reference "J17") (unit 1) (value "Rom Select 2") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/6ebf012d-4946-4653-a76a-c2c448779487/b13fd6ca-0615-435e-89bb-b7cfd6348d78"
-      (reference "J18") (unit 1) (value "Cassette") (footprint "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm")
+      (reference "J18") (unit 1) (value "Cassette") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm")
     )
     (path "/00000000-0000-0000-0000-000056085f00/00000000-0000-0000-0000-0000560b5336"
       (reference "L1") (unit 1) (value "0.33µH") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal")
@@ -1236,19 +1236,19 @@
       (reference "R35") (unit 1) (value "1kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/82e82377-a009-4767-803b-9b2d1a9d3ace"
-      (reference "R36") (unit 1) (value "100kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R36") (unit 1) (value "100Ω") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/53818924-2176-4de4-a526-c5298f3cf26e"
-      (reference "R37") (unit 1) (value "100kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R37") (unit 1) (value "100Ω") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/b27a7f8e-0f22-47a1-a473-ec1ff400074d"
-      (reference "R38") (unit 1) (value "100kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R38") (unit 1) (value "100Ω") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/4f638e82-ef5a-417b-ab66-ae92dc765ab2"
-      (reference "R39") (unit 1) (value "100kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R39") (unit 1) (value "100Ω") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005613dcca/492d2d9a-ef8a-40ce-a6a3-bea0b0ce6310"
-      (reference "R40") (unit 1) (value "100kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R40") (unit 1) (value "100Ω") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000560691d6/00000000-0000-0000-0000-000056069619"
       (reference "R41") (unit 1) (value "62Ω") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")

@@ -23,6 +23,11 @@ This is based Rob Krenicki's design that is based on the HackMac KiCAD schematic
 * design 3d printed case
 * Cleanup/Documentation
 
+## Bugs
+* on rev 0.95 R36-40 are listed as 100K ohm, they are actually 100 ohm
+* on rev 0.95 the joystick and cassette connectors are mirrored and need to be mounted on the bottom side of the board to function
+Both of these are corrected in 0.96
+
 ## Bill of Materials
 ### Console
 Qty|Reference(s)|Part
@@ -89,10 +94,9 @@ Qty|Reference(s)|Part
 1|R29|0
 2|R31, R33|75
 1|R32|470
-5|R36, R37, R38, R39, R40|100k
 4|R41, R42, R43, R44|62
 1|R47|3.3k
-4|R49, R51, R54, R56|100
+9|R36, R37, R38, R39, R40, R49, R51, R54, R56|100
 1|R55|330
 1|R57|10k
 1|R58|6.8k
