@@ -17,16 +17,13 @@ This is based Rob Krenicki's design that is based on the HackMac KiCAD schematic
 * adding headers for the GROM and expansion port to support riser cards for these ports
 
 ## ToDo
-* Much more testing . . . (I don't even have the final PCBs here yet)
-* write code for the microcontroller running the alpha lock switch toggle on the keyboard
-* Create Custom Keycap set
 * design 3d printed case
 * Cleanup/Documentation
 
 ## Bugs
 * on rev 0.95 R36-40 are listed as 100K ohm, they are actually 100 ohm
 * on rev 0.95 the joystick and cassette connectors are mirrored and need to be mounted on the bottom side of the board to function
-Both of these are corrected in 0.96
+* Both of these are corrected in 0.96
 
 ## Bill of Materials
 ### Console

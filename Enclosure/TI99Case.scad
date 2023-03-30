@@ -36,9 +36,9 @@ FootHole        = 5;  /* 4.4 for melt in 5 for glue in */
 //Top shell
   TShell        = 1;// [0:No, 1:Yes]
 //Bottom shell
-  BShell        = 1;// [0:No, 1:Yes]
+  BShell        = 0;// [0:No, 1:Yes]
 // Show PCBs
-  ShowPCB       = 1;// [0:No, 1:Yes]
+  ShowPCB       = 0;// [0:No, 1:Yes]
   
 /* [Hidden] */
 Couleur1        = "Orange";       
@@ -434,9 +434,9 @@ module KeyboardCutout()
            rotate(a=[8,0,270])
            { 
                linear_extrude(height =15, center = false, convexity = 0, twist = 0)              
-                                polygon(points=[[20,4],[234,4],[234,23],[245,23],[245,39],[269,39],[269,83],[216,83],[216,100],
-                                                [54,100],[54,83],[1,83],[1,40],[28,40],[28,24],[20,24],[20,4]]
-               , paths=[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]]);                             
+                                polygon(points=[[20,3],[234,3],[234,23],[243,23],[243,40],[270,40],[270,83],[218,83],[218,100],
+                                                [50,100],[50,83],[1,83],[1,40],[28,40],[28,25],[20,25],[20,3]]
+               , paths=[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]]);                             
            }
                             
 
@@ -458,9 +458,9 @@ module KeyboardCutoutReinforcement()
            { 
                
                linear_extrude(height =5, center = false, convexity = 0, twist = 0)  
-                                polygon(points=[[18,2],[236,2],[236,21],[247,21],[247,37],[271,37],[271,85],[218,85],[218,102],
-                                                [52,102],[52,85],[-2,85],[-2,38],[26,38],[26,26],[18,26],[18,2]]
-               , paths=[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]]); 
+                                polygon(points=[[18,1],[236,1],[236,21],[245,21],[245,37],[272,37],[272,85],[220,85],[220,102],
+                                                [48,102],[48,85],[-2,85],[-2,38],[26,38],[26,27],[18,27],[18,1]]
+               , paths=[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]]); 
        }              
      }
     }
@@ -483,11 +483,19 @@ module KeyboardFeet()
                translate([270.5,91.5,Thick/2]){foot(FootDia,FootHole,FootHeight+9);}
                translate([.8   ,90.5,Thick/2]){foot(FootDia,FootHole,FootHeight+9);}
                translate([227.8,91.5,Thick/2]){foot(FootDia,FootHole,FootHeight+9);}
-               
-               
-               
                }
-                            }              
+               
+               
+            }  
+            translate([20,4.7,-18]) cube([3,Width-(Thick*2)-1.2,5]);            
+            translate([100,4.7,-18]) cube([3,Width-(Thick*2)-1.2,5]);            
+            translate([180,4.7,-18]) cube([3,Width-(Thick*2)-1.2,5]);            
+            
+            translate([4.7,20,-18]) cube([BackShelf+8,5,5]);            
+            translate([4.7,100,-18]) cube([BackShelf+8,5,5]);            
+            translate([4.7,200,-18]) cube([BackShelf+8,5,5]);            
+            translate([4.7,300,-18]) cube([BackShelf+8,5,5]);            
+            translate([4.7,355,-18]) cube([BackShelf+8,5,5]);            
         }
     }
 
@@ -520,6 +528,16 @@ module BottomFeet(){
 
         translate([283,134.3,Thick/2-8.2])foot(FootDia,FootHole,FootHeight+8.4);
         translate([283.5,43.8,Thick/2-8.2]) foot(FootDia,FootHole,FootHeight+8.4);
+
+// Reinforcement        
+        translate([20,4.7,-6]) cube([3,Width-(Thick*2)-1,5]);
+        translate([100,4.7,-6]) cube([3,Width-(Thick*2)-1,5]);
+        translate([200,4.7,-6]) cube([3,Width-(Thick*2)-1,5]);
+        translate([300,4.7,-6]) cube([3,Width-(Thick*2)-1,5]);
+        
+        translate([2.4,100,-6]) cube([Length-(Thick*2),3,5]);
+        translate([2.4,200,-6]) cube([Length-(Thick*2),3,5]);
+        translate([2.4,300,-6]) cube([Length-(Thick*2),3,5]);
 }
 
 
