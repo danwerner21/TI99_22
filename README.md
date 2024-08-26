@@ -16,6 +16,8 @@ This is based Rob Krenicki's design that is based on the HackMac KiCAD schematic
 * designing a Cherry MX keyboard
 * adding headers for the GROM and expansion port to support riser cards for these ports
 
+If there are any questions, I can be reached at vic2020Dan at gmail dot com.
+
 ## ToDo
 * design 3d printed case
 * Cleanup/Documentation
