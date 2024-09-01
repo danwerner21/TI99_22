@@ -1,116 +1,381 @@
-Qty,Reference(s),Value
-6,C1` C9` C11` C58` C73` C75,0.001uF
-1,C2,22pF
-3,C3` C5` C59,22uF
-12,C4` C7` C13` C14` C20` C54` C55` C62` C64` C68` C71` C74,0.1uF
-1,C6,1uF
-7,C8` C52` C63` C65` C66` C67` C72,0.01uF
-1,C10,100uF
-1,C12,0.01uF
-7,C15` C16` C17` C19` C21` C22` C60,100uF
-30,C18` C23` C24` C25` C26` C27` C28` C29` C30` C31` C32` C33` C34` C35` C36` C37` C38` C39` C40` C41` C42` C43` C44` C45` C46` C47` C48` C49` C50` C51,0.1uF
-1,C53,100uF
-1,C56,12pF
-1,C57,56pF
-1,C61,220uF
-1,C69,220pF
-1,C70,0.022uF
-2,CR1` CR4,1N4148
-2,CR2` CR3,1N914B
-1,D1,LED
-1,J1,Connector PinHeader 2.54mm:PinHeader 1x02 P2.54mm Vertical
-1,J2,Connector PinHeader 2.54mm:PinHeader 1x02 P2.54mm Vertical
-1,J3,TerminalBlock RND:TerminalBlock RND 205-00278 1x04 P5.00mm Vertical
-1,J4,Connector PinHeader 2.54mm:PinHeader 1x16 P2.54mm Vertical
-2,J5` J6,Connector PinHeader 2.54mm:PinHeader 1x03 P2.54mm Vertical
-1,J7,Connector PinHeader 2.54mm:PinHeader 1x03 P2.54mm Vertical
-1,J8,Connector PinHeader 2.54mm:PinHeader 1x02 P2.54mm Vertical
-1,J9,Connector PinHeader 2.54mm:PinHeader 1x02 P2.54mm Vertical
-1,J10,Connector Dsub:DSUB-9 Female Horizontal P2.77x2.84mm EdgePinOffset4.94mm Housed MountingHolesOffset7.48mm
-1,J11,Connector PinHeader 2.54mm:PinHeader 1x18 P2.54mm Vertical
-1,J12,Connector PinHeader 2.54mm:PinHeader 2x22 P2.54mm Vertical
-1,J13,WernerCustomLibrary:44 Pin Card Edge
-1,J14,Library:CardEdge 34Pin 2.54mm Vertical
-1,J15,Connector PinHeader 2.54mm:PinHeader 2x18 P2.54mm Vertical
-1,J16,Connector PinSocket 2.54mm:PinSocket 1x03 P2.54mm Vertical
-1,J17,Connector PinSocket 2.54mm:PinSocket 1x03 P2.54mm Vertical
-1,J18,Connector Dsub:DSUB-9 Female Horizontal P2.77x2.84mm EdgePinOffset4.94mm Housed MountingHolesOffset7.48mm
-1,L1,0.33uH
-2,L4` L5,6.8uH
-1,L7,5.8uH
-1,L8,INDUCTOR (Ferrite BEAD)
-7,L10` L11` L12` L13` L14` L15` L16,8.2uH
-3,Q1` Q3` Q4,TIS92
-1,Q2,2N3904
-1,R1,150k
-7,R2` R9` R11` R18` R34` R35` R46,1k
-1,R3,12k
-1,R4,47k
-4,R5` R6` R7` R8,22
-5,R10` R26` R45` R52` R53,4.7k
-5,R12` R13` R14` R15` R16,1K
-3,R17` R48` R50,2.2k
-2,R19` R30,470
-1,R20,270
-1,R21,1.5k x 9 SIP bussed
-1,R22,361
-3,R23` R73` R75,5.6k
-2,R24` R27,10
-1,R25,150
-1,R28,470k
-1,R29,0
-2,R31` R33,75
-1,R32,470
-5,R36` R37` R38` R39` R40,100k
-4,R41` R42` R43` R44,62
-1,R47,3.3k
-4,R49` R51` R54` R56,100
-1,R55,330
-1,R57,10k
-1,R58,6.8k
-1,R59,39k
-1,R60,6.8k
-4,R61` R62` R67` R68,1K
-1,R63,120k
-1,R64,2.7k
-3,R65` R66` R76,220
-1,R69,10K
-1,R70,9.1k
-2,R71` R72,10k
-1,R74,5.6K
-1,R77,15
-2,RN1` RN2,10K x 9 SIP Bussed
-1,SW1,DIP switchx05
-1,SW2,Pin Header 01x02 Male
-1,U1,TIM9904
-1,U2,TMS9900
-4,U3` U15` U22` U24,74LS04
-2,U4` U9,74LS32
-2,U5` U8,74LS138
-1,U6,74LS03
-1,U7,74LS08
-3,U10` U14` U18,74LS00
-2,U11` U41,74LS244
-1,U12,74LS373
-1,U13,74LS245
-1,U16,74LS74
-1,U17,74LS194
-1,U19,LM2901
-1,U20,LM7905 TO220
-1,U21,LM2903
-3,U26` U27` U28,TMC0430
-3,U29` U30` U37,HM62256BLP
-2,U31` U32,27C64
-1,U33,SN76489
-1,U34,TMS9918
-3,U35` U36` U38,74LS574
-1,U39,TMS9901
-1,U40,74LS156
-2,U42` U43,74LS367
-1,U44,74LS379
-1,U45,27C010
-1,U46,RC4558
-1,U47,74LS06
-2,U48` U49,TIL119
-1,Y1,48.000 MHz Crystal
-1,Y2,10.7MHz Crystal
+Source:,N:\Vintage\Projects\TI99_22\mainboard\Console.kicad_sch,,,,,
+Date:,4/13/2024 9:06,,,,,
+Tool:,Eeschema (6.0.11),,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,251,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,C1,0.001uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C2,22pF,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C3,22uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C4,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C5,22uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C6,1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C7,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C8,0.01uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C9,0.001uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C10,100uf,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C11,0.001uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C12,0.01uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C13,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C14,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C15,100uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C16,100uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C17,100uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C18,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C19,100uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C20,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C21,100uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C22,100uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C23,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C24,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C25,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C26,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C27,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C28,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C29,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C30,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C31,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C32,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C33,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C34,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C35,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C36,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C37,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C38,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C39,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C40,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C41,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C42,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C43,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C44,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C45,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C46,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C47,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C48,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C49,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C50,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C51,0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C52,0.01uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C53,100uf,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,~
+,,C54,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C55,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C56,12pF,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C57,56pF,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C58,0.001uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C59,22uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C60,100uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C61,220uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+,,C62,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C63,0.01uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C64,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C65,0.01uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C66,0.01uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C67,0.01uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C68,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C69,220pF,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C70,0.022uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C71,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C72,0.01uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C73,0.001uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C74,0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,C75,0.001uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+,,CR1,1N4148,Device:D,Diode_THT:D_A-405_P7.62mm_Horizontal,~
+,,CR2,1N914B,Device:D,Diode_THT:D_A-405_P7.62mm_Horizontal,~
+,,CR3,1N914B,Device:D,Diode_THT:D_A-405_P7.62mm_Horizontal,~
+,,CR4,1N4148,Device:D,Diode_THT:D_A-405_P7.62mm_Horizontal,~
+,,D1,LED,Device:LED,LED_THT:LED_D5.0mm,~
+,,H1,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~
+,,H2,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~
+,,H3,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~
+,,H4,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~
+,,H5,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~
+,,H6,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~
+,,H7,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~
+,,J1,Reset,Connector:Conn_01x02_Male,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+,,J2,Power LED,Connector:Conn_01x02_Male,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+,,J3,POWER,Connector:Screw_Terminal_01x04,TerminalBlock_RND:TerminalBlock_RND_205-00278_1x04_P5.00mm_Vertical,~
+,,J4,UNICORN PORT,Connector:Conn_01x16_Male,Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical,~
+,,J5,ROM Select,Connector:Conn_01x03_Male,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,J6,ROM Select,Connector:Conn_01x03_Male,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,J7,Sound Clock Select,Connector:Conn_01x03_Male,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,J8,AUDIO OUT,Connector:Conn_01x02_Male,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+,,J9,VIDEO OUT,Connector:Conn_01x02_Male,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+,,J10,Joystick,Connector:DB9_Male_MountingHoles,Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm, ~
+,,J11,Keyboard,Connector_Generic:Conn_01x18,Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical,~
+,,J12,I/O Port,Connector_Generic:Conn_02x22_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x22_P2.54mm_Vertical,~
+,,J13,I/O Port,Connector_Generic:Conn_02x22_Odd_Even,WernerCustomLibrary:44 Pin Card Edge,~
+,,J14,GROM Port,Connector_Generic:Conn_02x18_Odd_Even,Library:CardEdge_34Pin_2.54mm_Vertical,~
+,,J15,GROM Port,Connector_Generic:Conn_02x18_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical,~
+,,J16,Rom Select 1,Connector:Conn_01x03_Male,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,~
+,,J17,Rom Select 2,Connector:Conn_01x03_Male,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,~
+,,J18,Cassette,Connector:DB9_Male_MountingHoles,Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm, ~
+,,L1,0.33uH,Device:L_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,L4,6.8uH,Device:L,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,L5,6.8uH,Device:L,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,L7,5.8uH,Device:L,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,L8,INDUCTOR (BEAD),Device:L_Ferrite,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+,,L10,8.2uH,Device:L_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,L11,8.2uH,Device:L_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,L12,8.2uH,Device:L_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,L13,8.2uH,Device:L_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,L14,8.2uH,Device:L_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,L15,8.2uH,Device:L_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,L16,8.2uH,Device:L_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+,,Q1,TIS92,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_HandSolder,~
+,,Q2,2N3904,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92L_HandSolder,~
+,,Q3,TIS92,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_HandSolder,~
+,,Q4,TIS92,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_HandSolder,~
+,,R1,150k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R2,1k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R3,12k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R4,47k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R5,22,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R6,22,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R7,22,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R8,22,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R9,1k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R10,4.7k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R11,1k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R12,1K ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R13,1K ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R14,1K ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R15,1K ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R16,1K ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R17,2.2k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R18,1k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R19,470,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R20,270,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R21,1.5k ,Device:R_Network09,Resistor_THT:R_Array_SIP10,http://www.vishay.com/docs/31509/csc.pdf
+,,R22,361,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R23,5.6k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R24,10,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R25,150,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R26,4.7k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R27,10,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R28,470k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R29,0,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R30,470,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R31,75,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R32,470,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R33,75,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R34,1k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R35,1k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R36,100,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R37,100,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R38,100,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R39,100,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R40,100,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R41,62,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R42,62,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R43,62,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R44,62,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R45,4.7k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R46,1k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R47,3.3k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R48,2.2k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R49,100,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R50,2.2k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R51,100,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R52,4.7k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R53,4.7k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R54,100,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R55,330,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R56,100,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R57,10k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R58,6.8k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R59,39k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R60,6.8k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R61,1K ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R62,1K ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R63,120k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R64,2.7k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R65,220,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R66,220,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R67,1K ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R68,1K ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R69,10K ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R70,9.1k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R71,10k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R72,10k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R73,5.6k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R74,5.6K ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R75,5.6k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R76,220,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,R77,15,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+,,RN1,10K,Device:R_Network09,Resistor_THT:R_Array_SIP10,http://www.vishay.com/docs/31509/csc.pdf
+,,RN2,10K,Device:R_Network09,Resistor_THT:R_Array_SIP10,http://www.vishay.com/docs/31509/csc.pdf
+,,SW1,RAM Size,Switch:SW_DIP_x05,Package_DIP:DIP-10_W7.62mm_Socket_LongPads,~
+,,SW2,Internal Cart ROM Enable,Switch:SW_DIP_x01,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+,,U1,TIM9904,Werner_custom:TIM9904,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,
+,,U2,TMS9900,Werner_custom:TMS9900,Package_DIP:DIP-64_W22.86mm_Socket_LongPads,
+,,U3,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS04
+,,U4,74LS32,74xx:74LS32,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS32
+,,U5,74LS138,74xx:74LS138,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS138
+,,U6,74LS03,74xx:74LS03,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS03
+,,U7,74LS08,74xx:74LS08,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS08
+,,U8,74LS138,74xx:74LS138,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS138
+,,U9,74LS32,74xx:74LS32,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS32
+,,U10,74LS00,74xx:74LS00,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74ls00
+,,U11,74LS244,74xx:74LS244,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+,,U12,74LS373,74xx:74LS373,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS373
+,,U13,74LS245,74xx:74LS245,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS245
+,,U14,74LS00,74xx:74LS00,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74ls00
+,,U15,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS04
+,,U16,74LS74,74xx:74LS74,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,74xx/74hc_hct74.pdf
+,,U17,74LS194,74xx:74LS194,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS194
+,,U18,74LS00,74xx:74LS00,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74ls00
+,,U19,LM2901,Comparator:LM2901,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,https://www.st.com/resource/en/datasheet/lm2901.pdf
+,,U20,LM7905_TO220,Regulator_Linear:LM7905_TO220,Package_TO_SOT_THT:TO-220-3_Vertical,https://www.onsemi.com/pub/Collateral/MC7900-D.PDF
+,,U21,LM2903,Comparator:LM2903,Package_DIP:DIP-8_W7.62mm_Socket_LongPads,http://www.ti.com/lit/ds/symlink/lm393.pdf
+,,U22,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS04
+,,U24,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS04
+,,U26,TMC0430,Werner_custom:TMC0430,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,
+,,U27,TMC0430,Werner_custom:TMC0430,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,
+,,U28,TMC0430,Werner_custom:TMC0430,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,
+,,U29,HM62256BLP,Memory_RAM:HM62256BLP,Package_DIP:DIP-28_W15.24mm_Socket_LongPads,https://web.mit.edu/6.115/www/document/62256.pdf
+,,U30,HM62256BLP,Memory_RAM:HM62256BLP,Package_DIP:DIP-28_W15.24mm_Socket_LongPads,https://web.mit.edu/6.115/www/document/62256.pdf
+,,U31,27C64,Memory_EPROM:27C64,Package_DIP:DIP-28_W15.24mm_Socket_LongPads,http://ww1.microchip.com/downloads/en/DeviceDoc/11107M.pdf
+,,U32,27C64,Memory_EPROM:27C64,Package_DIP:DIP-28_W15.24mm_Socket_LongPads,http://ww1.microchip.com/downloads/en/DeviceDoc/11107M.pdf
+,,U33,SN76489,Werner_custom:SN76489,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,
+,,U34,TMS9918,Werner_custom:TMS9918,Package_DIP:DIP-40_W15.24mm_Socket_LongPads,
+,,U35,74LS574,74xx:74LS574,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS574
+,,U36,74LS574,74xx:74LS574,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS574
+,,U37,HM62256BLP,Memory_RAM:HM62256BLP,Package_DIP:DIP-28_W15.24mm_Socket_LongPads,https://web.mit.edu/6.115/www/document/62256.pdf
+,,U38,74LS574,74xx:74LS574,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS574
+,,U39,TMS9901,Werner_custom:TMS9901,Package_DIP:DIP-40_W15.24mm_Socket_LongPads,
+,,U40,74LS156,74xx:74LS156,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS156
+,,U41,74LS244,74xx:74LS244,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+,,U42,74LS367,74xx:74LS367,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS367
+,,U43,74LS367,74xx:74LS367,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS367
+,,U44,74LS379,74xx:74LS379,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS379
+,,U45,27C010-C,Werner_custom:27C010-C,Package_DIP:DIP-32_W15.24mm_Socket_LongPads,http://ww1.microchip.com/downloads/en/DeviceDoc/doc0321.pdf
+,,U46,RC4558,Amplifier_Operational:RC4558,Package_DIP:DIP-8_W7.62mm_Socket_LongPads,http://www.ti.com/lit/ds/symlink/rc4558.pdf
+,,U47,74LS06,74xx:74LS06,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS06
+,,U48,TIL119,Werner_custom:TIL119,Package_DIP:DIP-6_W7.62mm_Socket_LongPads,
+,,U49,TIL119,Werner_custom:TIL119,Package_DIP:DIP-6_W7.62mm_Socket_LongPads,
+,,Y1,48.000 MHz,Device:Crystal,Crystal:Crystal_HC49-U_Vertical,~
+,,Y2,10.7MHz,Device:Crystal,Crystal:Crystal_HC49-U_Vertical,~
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,6,"C1, C9, C11, C58, C73, C75",0.001uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+2,1,C2,22pF,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+3,3,"C3, C5, C59",22uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+4,12,"C4, C7, C13, C14, C20, C54, C55, C62, C64, C68, C71, C74",0.1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+5,1,C6,1uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+6,7,"C8, C52, C63, C65, C66, C67, C72",0.01uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+7,1,C10,100uf,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+8,1,C12,0.01uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+9,7,"C15, C16, C17, C19, C21, C22, C60",100uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+10,30,"C18, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, C51",0.1uf,Device:C_Small,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+11,1,C53,100uf,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,~
+12,1,C56,12pF,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+13,1,C57,56pF,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+14,1,C61,220uf,Device:C_Polarized,Capacitor_THT:CP_Radial_D7.5mm_P2.50mm,~
+15,1,C69,220pF,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+16,1,C70,0.022uf,Device:C,Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm,~
+17,2,"CR1, CR4",1N4148,Device:D,Diode_THT:D_A-405_P7.62mm_Horizontal,~
+18,2,"CR2, CR3",1N914B,Device:D,Diode_THT:D_A-405_P7.62mm_Horizontal,~
+19,1,D1,LED,Device:LED,LED_THT:LED_D5.0mm,~
+20,7,"H1, H2, H3, H4, H5, H6, H7",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3,~
+21,1,J1,Reset,Connector:Conn_01x02_Male,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+22,1,J2,Power LED,Connector:Conn_01x02_Male,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+23,1,J3,POWER,Connector:Screw_Terminal_01x04,TerminalBlock_RND:TerminalBlock_RND_205-00278_1x04_P5.00mm_Vertical,~
+24,1,J4,UNICORN PORT,Connector:Conn_01x16_Male,Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical,~
+25,2,"J5, J6",ROM Select,Connector:Conn_01x03_Male,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+26,1,J7,Sound Clock Select,Connector:Conn_01x03_Male,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+27,1,J8,AUDIO OUT,Connector:Conn_01x02_Male,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+28,1,J9,VIDEO OUT,Connector:Conn_01x02_Male,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+29,1,J10,Joystick,Connector:DB9_Male_MountingHoles,Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm, ~
+30,1,J11,Keyboard,Connector_Generic:Conn_01x18,Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical,~
+31,1,J12,I/O Port,Connector_Generic:Conn_02x22_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x22_P2.54mm_Vertical,~
+32,1,J13,I/O Port,Connector_Generic:Conn_02x22_Odd_Even,WernerCustomLibrary:44 Pin Card Edge,~
+33,1,J14,GROM Port,Connector_Generic:Conn_02x18_Odd_Even,Library:CardEdge_34Pin_2.54mm_Vertical,~
+34,1,J15,GROM Port,Connector_Generic:Conn_02x18_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical,~
+35,1,J16,Rom Select 1,Connector:Conn_01x03_Male,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,~
+36,1,J17,Rom Select 2,Connector:Conn_01x03_Male,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,~
+37,1,J18,Cassette,Connector:DB9_Male_MountingHoles,Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm, ~
+38,1,L1,0.33uH,Device:L_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+39,2,"L4, L5",6.8uH,Device:L,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+40,1,L7,5.8uH,Device:L,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+41,1,L8,INDUCTOR (BEAD),Device:L_Ferrite,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+42,7,"L10, L11, L12, L13, L14, L15, L16",8.2uH,Device:L_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,~
+43,3,"Q1, Q3, Q4",TIS92,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_HandSolder,~
+44,1,Q2,2N3904,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92L_HandSolder,~
+45,1,R1,150k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+46,7,"R2, R9, R11, R18, R34, R35, R46",1k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+47,1,R3,12k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+48,1,R4,47k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+49,4,"R5, R6, R7, R8",22,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+50,5,"R10, R26, R45, R52, R53",4.7k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+51,5,"R12, R13, R14, R15, R16",1K ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+52,3,"R17, R48, R50",2.2k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+53,2,"R19, R30",470,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+54,1,R20,270,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+55,1,R21,1.5k ,Device:R_Network09,Resistor_THT:R_Array_SIP10,http://www.vishay.com/docs/31509/csc.pdf
+56,1,R22,361,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+57,3,"R23, R73, R75",5.6k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+58,2,"R24, R27",10,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+59,1,R25,150,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+60,1,R28,470k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+61,1,R29,0,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+62,2,"R31, R33",75,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+63,1,R32,470,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+64,9,"R36, R37, R38, R39, R40, R49, R51, R54, R56",100,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+65,4,"R41, R42, R43, R44",62,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+66,1,R47,3.3k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+67,1,R55,330,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+68,1,R57,10k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+69,1,R58,6.8k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+70,1,R59,39k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+71,1,R60,6.8k ,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+72,4,"R61, R62, R67, R68",1K ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+73,1,R63,120k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+74,1,R64,2.7k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+75,3,"R65, R66, R76",220,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+76,1,R69,10K ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+77,1,R70,9.1k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+78,2,"R71, R72",10k ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+79,1,R74,5.6K ,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+80,1,R77,15,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+81,2,"RN1, RN2",10K,Device:R_Network09,Resistor_THT:R_Array_SIP10,http://www.vishay.com/docs/31509/csc.pdf
+82,1,SW1,RAM Size,Switch:SW_DIP_x05,Package_DIP:DIP-10_W7.62mm_Socket_LongPads,~
+83,1,SW2,Internal Cart ROM Enable,Switch:SW_DIP_x01,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+84,1,U1,TIM9904,Werner_custom:TIM9904,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,
+85,1,U2,TMS9900,Werner_custom:TMS9900,Package_DIP:DIP-64_W22.86mm_Socket_LongPads,
+86,4,"U3, U15, U22, U24",74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS04
+87,2,"U4, U9",74LS32,74xx:74LS32,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS32
+88,2,"U5, U8",74LS138,74xx:74LS138,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS138
+89,1,U6,74LS03,74xx:74LS03,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS03
+90,1,U7,74LS08,74xx:74LS08,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS08
+91,3,"U10, U14, U18",74LS00,74xx:74LS00,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74ls00
+92,2,"U11, U41",74LS244,74xx:74LS244,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+93,1,U12,74LS373,74xx:74LS373,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS373
+94,1,U13,74LS245,74xx:74LS245,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS245
+95,1,U16,74LS74,74xx:74LS74,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,74xx/74hc_hct74.pdf
+96,1,U17,74LS194,74xx:74LS194,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS194
+97,1,U19,LM2901,Comparator:LM2901,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,https://www.st.com/resource/en/datasheet/lm2901.pdf
+98,1,U20,LM7905_TO220,Regulator_Linear:LM7905_TO220,Package_TO_SOT_THT:TO-220-3_Vertical,https://www.onsemi.com/pub/Collateral/MC7900-D.PDF
+99,1,U21,LM2903,Comparator:LM2903,Package_DIP:DIP-8_W7.62mm_Socket_LongPads,http://www.ti.com/lit/ds/symlink/lm393.pdf
+100,3,"U26, U27, U28",TMC0430,Werner_custom:TMC0430,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,
+101,3,"U29, U30, U37",HM62256BLP,Memory_RAM:HM62256BLP,Package_DIP:DIP-28_W15.24mm_Socket_LongPads,https://web.mit.edu/6.115/www/document/62256.pdf
+102,2,"U31, U32",27C64,Memory_EPROM:27C64,Package_DIP:DIP-28_W15.24mm_Socket_LongPads,http://ww1.microchip.com/downloads/en/DeviceDoc/11107M.pdf
+103,1,U33,SN76489,Werner_custom:SN76489,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,
+104,1,U34,TMS9918,Werner_custom:TMS9918,Package_DIP:DIP-40_W15.24mm_Socket_LongPads,
+105,3,"U35, U36, U38",74LS574,74xx:74LS574,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS574
+106,1,U39,TMS9901,Werner_custom:TMS9901,Package_DIP:DIP-40_W15.24mm_Socket_LongPads,
+107,1,U40,74LS156,74xx:74LS156,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS156
+108,2,"U42, U43",74LS367,74xx:74LS367,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS367
+109,1,U44,74LS379,74xx:74LS379,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS379
+110,1,U45,27C010-C,Werner_custom:27C010-C,Package_DIP:DIP-32_W15.24mm_Socket_LongPads,http://ww1.microchip.com/downloads/en/DeviceDoc/doc0321.pdf
+111,1,U46,RC4558,Amplifier_Operational:RC4558,Package_DIP:DIP-8_W7.62mm_Socket_LongPads,http://www.ti.com/lit/ds/symlink/rc4558.pdf
+112,1,U47,74LS06,74xx:74LS06,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,http://www.ti.com/lit/gpn/sn74LS06
+113,2,"U48, U49",TIL119,Werner_custom:TIL119,Package_DIP:DIP-6_W7.62mm_Socket_LongPads,
+114,1,Y1,48.000 MHz,Device:Crystal,Crystal:Crystal_HC49-U_Vertical,~
+115,1,Y2,10.7MHz,Device:Crystal,Crystal:Crystal_HC49-U_Vertical,~

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>N:\Vintage\Projects\TI99_22\unicornboard\unicorn\unicorn.kicad_sch</source>
+    <date>4/13/2024 9:08:00 AM</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>UNICORN GROM REPLACEMENT</title>
+        <company/>
+        <rev>V0.9</rev>
+        <date>2022-11-13</date>
+        <source>unicorn.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="unicorn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc38c241-8542-45aa-8968-c6c70a4ba29d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="unicorn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6e551a5-95d0-4268-a5d7-c29369da7c1f</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="unicorn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c6fd1c1-d807-4f21-8172-216b90e314ea</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="unicorn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cefb5702-7641-4484-9070-ab2d74aa49ab</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>UNICORN PORT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x16_Male" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="unicorn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b50944f-25e4-42d6-888f-b05e2bbdc730</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>HV-LV</value>
+      <footprint>WernerCustomLibrary:HV-LV</footprint>
+      <libsource lib="CUSTOM_CPU" part="HV-LV" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="unicorn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f89d08c-f97a-4d77-afc8-63572a0bd8e7</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>HV-LV</value>
+      <footprint>WernerCustomLibrary:HV-LV</footprint>
+      <libsource lib="CUSTOM_CPU" part="HV-LV" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="unicorn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cff88ad6-7f32-45d4-8186-ff45a04d56b1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>HV-LV</value>
+      <footprint>WernerCustomLibrary:HV-LV</footprint>
+      <libsource lib="CUSTOM_CPU" part="HV-LV" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="unicorn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>224452f1-67ce-4ab3-a136-9c03e9bcd4ea</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>HV-LV</value>
+      <footprint>WernerCustomLibrary:HV-LV</footprint>
+      <libsource lib="CUSTOM_CPU" part="HV-LV" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="unicorn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1eff0f9e-88ab-4a54-96d7-0a42b8071597</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ESP32_MODULE</value>
+      <footprint>WernerCustomLibrary:ESP32_DEVKIT_30</footprint>
+      <libsource lib="CUSTOM_CPU" part="ESP32_MODULE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="unicorn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3cc3935-38e1-49e4-b232-5965b76c0e41</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CUSTOM_CPU" part="ESP32_MODULE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32_MODULE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET" type="input"/>
+        <pin num="2" name="GPIO36" type="bidirectional"/>
+        <pin num="3" name="GPIO39" type="bidirectional"/>
+        <pin num="4" name="GPIO34" type="bidirectional"/>
+        <pin num="5" name="GPIO35" type="bidirectional"/>
+        <pin num="6" name="GPIO32" type="bidirectional"/>
+        <pin num="7" name="GPIO33" type="bidirectional"/>
+        <pin num="8" name="GPIO25" type="bidirectional"/>
+        <pin num="9" name="GPIO26" type="bidirectional"/>
+        <pin num="10" name="GPIO27" type="bidirectional"/>
+        <pin num="11" name="GPIO14" type="bidirectional"/>
+        <pin num="12" name="GPIO12" type="bidirectional"/>
+        <pin num="13" name="GPIO13" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="VIN" type="power_in"/>
+        <pin num="16" name="3.3V" type="power_out"/>
+        <pin num="17" name="GND" type="bidirectional"/>
+        <pin num="18" name="GPIO13" type="bidirectional"/>
+        <pin num="19" name="GPIO2" type="bidirectional"/>
+        <pin num="20" name="GPIO4" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GPIO5" type="bidirectional"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO21" type="bidirectional"/>
+        <pin num="27" name="GPIO3" type="bidirectional"/>
+        <pin num="28" name="GPIO1" type="bidirectional"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="GPIO23" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUSTOM_CPU" part="HV-LV">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HV-LV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HV4" type="bidirectional"/>
+        <pin num="2" name="HV3" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="HV" type="power_in"/>
+        <pin num="5" name="HV2" type="bidirectional"/>
+        <pin num="6" name="HV1" type="bidirectional"/>
+        <pin num="7" name="LV1" type="bidirectional"/>
+        <pin num="8" name="LV2" type="bidirectional"/>
+        <pin num="9" name="LV" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="LV3" type="bidirectional"/>
+        <pin num="12" name="LV4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x16_Male">
+      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="U1" pin="9" pinfunction="LV" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="LV" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="LV" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="LV" pintype="power_in"/>
+      <node ref="U5" pin="16" pinfunction="3.3V" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="HV" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="HV" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="HV" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="HV" pintype="power_in"/>
+      <node ref="U5" pin="15" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="3" name="D0">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="HV4" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="D1">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="HV3" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="D2">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="HV2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="D3">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="HV1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="D4">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="HV4" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="D5">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="HV3" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="D6">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="HV2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="D7">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="HV1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="DBIN">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="HV3" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="17" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="GREADY">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="HV4" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="GRMCLK">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="HV4" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="IO_A14">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="HV2" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="LV_A14">
+      <node ref="U3" pin="8" pinfunction="LV2" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="GPIO34" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="LV_D0">
+      <node ref="U1" pin="12" pinfunction="LV4" pintype="bidirectional"/>
+      <node ref="U5" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="LV_D1">
+      <node ref="U1" pin="11" pinfunction="LV3" pintype="bidirectional"/>
+      <node ref="U5" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="LV_D2">
+      <node ref="U1" pin="8" pinfunction="LV2" pintype="bidirectional"/>
+      <node ref="U5" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="LV_D3">
+      <node ref="U1" pin="7" pinfunction="LV1" pintype="bidirectional"/>
+      <node ref="U5" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="LV_D4">
+      <node ref="U2" pin="12" pinfunction="LV4" pintype="bidirectional"/>
+      <node ref="U5" pin="8" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="LV_D5">
+      <node ref="U2" pin="11" pinfunction="LV3" pintype="bidirectional"/>
+      <node ref="U5" pin="11" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="LV_D6">
+      <node ref="U2" pin="8" pinfunction="LV2" pintype="bidirectional"/>
+      <node ref="U5" pin="13" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="LV_D7">
+      <node ref="U2" pin="7" pinfunction="LV1" pintype="bidirectional"/>
+      <node ref="U5" pin="9" pinfunction="GPIO26" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="LV_DBIN">
+      <node ref="U3" pin="11" pinfunction="LV3" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="GPIO39" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="LV_GREADY">
+      <node ref="U3" pin="12" pinfunction="LV4" pintype="bidirectional"/>
+      <node ref="U5" pin="10" pinfunction="GPIO27" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="LV_GRMCLK">
+      <node ref="U4" pin="12" pinfunction="LV4" pintype="bidirectional"/>
+      <node ref="U5" pin="6" pinfunction="GPIO32" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="HV2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U4-Pad6)">
+      <node ref="U4" pin="6" pinfunction="HV1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="LV1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U4-Pad8)">
+      <node ref="U4" pin="8" pinfunction="LV2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U5-Pad1)">
+      <node ref="U5" pin="1" pinfunction="RESET" pintype="input+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U5-Pad2)">
+      <node ref="U5" pin="2" pinfunction="GPIO36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U5-Pad12)">
+      <node ref="U5" pin="12" pinfunction="GPIO12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U5-Pad18)">
+      <node ref="U5" pin="18" pinfunction="GPIO13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U5-Pad19)">
+      <node ref="U5" pin="19" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U5-Pad20)">
+      <node ref="U5" pin="20" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U5-Pad23)">
+      <node ref="U5" pin="23" pinfunction="GPIO5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U5-Pad26)">
+      <node ref="U5" pin="26" pinfunction="GPIO21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U5-Pad27)">
+      <node ref="U5" pin="27" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U5-Pad28)">
+      <node ref="U5" pin="28" pinfunction="GPIO1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U5-Pad29)">
+      <node ref="U5" pin="29" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U5-Pad30)">
+      <node ref="U5" pin="30" pinfunction="GPIO23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="~{GS}">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="HV1" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="~{LV_GS}">
+      <node ref="U3" pin="7" pinfunction="LV1" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="GPIO35" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="~{LV_RESET}">
+      <node ref="U4" pin="11" pinfunction="LV3" pintype="bidirectional"/>
+      <node ref="U5" pin="7" pinfunction="GPIO33" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="~{RESET}">
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="HV3" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

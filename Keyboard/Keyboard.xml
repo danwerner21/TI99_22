@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>N:\Projects\TI99_22\Keyboard\Keyboard.kicad_sch</source>
-    <date>11/20/2022 9:07:30 AM</date>
-    <tool>Eeschema (6.0.6)</tool>
+    <source>N:\Vintage\Projects\TI99_22\Keyboard\Keyboard.kicad_sch</source>
+    <date>4/13/2024 9:07:25 AM</date>
+    <tool>Eeschema (6.0.11)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TI/99 22 Keyboard</title>
@@ -591,7 +591,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Keyboard.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1c5480d1-9229-4bb4-bdbe-646c9ddc051c b875e4dd-b1b4-4b6d-b8fb-2add5473eaea af10a0c5-9ba0-420f-86c5-f3420b9ce7c2 95509a78-603d-4354-b4e0-e5d9b0bdb1e7 1626cd8a-5fce-41d9-89c2-7760d48d10b3</tstamps>
+      <tstamps>1c5480d1-9229-4bb4-bdbe-646c9ddc051c af10a0c5-9ba0-420f-86c5-f3420b9ce7c2 b875e4dd-b1b4-4b6d-b8fb-2add5473eaea 95509a78-603d-4354-b4e0-e5d9b0bdb1e7 1626cd8a-5fce-41d9-89c2-7760d48d10b3</tstamps>
     </comp>
   </components>
   <libparts>

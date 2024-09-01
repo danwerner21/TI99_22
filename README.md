@@ -11,14 +11,35 @@ This is based Rob Krenicki's design that is based on the HackMac KiCAD schematic
 * Placing an EPROM on the main board that can be used as an on-board cartridge ROM
 * adding a header to allow a microcontroller to replace the GROM chips (hopefully this can be moved on-board soon)
 * replacing the video DRAM with SRAM
-* Adding ATX power support
 * Updating the Keyboard header to support a soft caps lock switch on the keyboard PCB
 * designing a Cherry MX keyboard
 * adding headers for the GROM and expansion port to support riser cards for these ports
 
 ## ToDo
-* design 3d printed case
 * Cleanup/Documentation
+Possible Future Thoughts:
+* Redo the Board in an ATX form factor with PEB slots on board
+* Add Support for the Pico9918 on-board
+* Add Support for a Tang Nano FPGA TMS9918 replacement 
+* Add Hex-bus port
+* Add a DIN 5-pin Composite video/Audio out. 
+* Add built in speech synthesis
+* Clone Disk IO card
+* Relocate all the ports to the back of the motherboard
+
+## DIP Switch Settings
+The DIP switch on the main board allows one to configure which bank areas are populated with RAM.
+ 
+
+RAM0 enables RAM to addresses >2000-3FFF (Lo Memory Expansion)
+RAM1 enables RAM to addresses >A000-BFFF (Hi Memory Expansion)
+RAM2 enables RAM to addresses >C000-DFFF (Hi Memory Expansion)
+RAM3 enables RAM to addresses >E000-FFFF  (Hi Memory Expansion)
+RAM4 enables RAM to addresses >8000-83FF (Normal TI Scratch Pad RAM)
+
+Note that I have never actually tested off-board 8 bit RAM, so this is new territory and might need some debugging 😊   
+also on-board RAM is 16 bit – so all of those external RAM sources will be slower. 
+
 
 ## Bugs
 * on rev 0.95 R36-40 are listed as 100K ohm, they are actually 100 ohm

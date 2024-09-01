@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>N:\Projects\TI99_22\mainboard\Console.kicad_sch</source>
-    <date>12/27/2022 10:12:59 AM</date>
-    <tool>Eeschema (6.0.6)</tool>
+    <source>N:\Vintage\Projects\TI99_22\mainboard\Console.kicad_sch</source>
+    <date>4/13/2024 9:06:53 AM</date>
+    <tool>Eeschema (6.0.11)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>Console.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>CPU.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>AddressDecoding.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>8bit16bitSwitch.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -80,8 +80,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>Power.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -98,8 +98,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>GROM-Logic.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -116,8 +116,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>ROM-RAM-Sound.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -134,8 +134,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>Video.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -152,8 +152,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>Keyboard.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -170,8 +170,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>GROM-IO-Port.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -188,8 +188,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>onboardrom.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -206,8 +206,8 @@
       <title_block>
         <title>TI-99/22</title>
         <company>Dan Werner - https://github.com/danwerner21/ti99_22</company>
-        <rev>0.95</rev>
-        <date>2022-12-26</date>
+        <rev>0.96</rev>
+        <date>2023-01-21</date>
         <source>Cassette.kicad_sch</source>
         <comment number="1" value="Schematic for Keyboard, Joystick and Cassette port."/>
         <comment number="2" value=""/>
@@ -1761,7 +1761,7 @@
     </comp>
     <comp ref="J10">
       <value>Joystick</value>
-      <footprint>Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm</footprint>
+      <footprint>Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm</footprint>
       <libsource lib="Connector" part="DB9_Male_MountingHoles" description="9-pin male D-SUB connector, Mounting Hole"/>
       <property name="Sheetname" value="Keyboard"/>
       <property name="Sheetfile" value="Keyboard.kicad_sch"/>
@@ -1796,7 +1796,7 @@
       <tstamps>00000000-0000-0000-0000-000056189231</tstamps>
     </comp>
     <comp ref="R36">
-      <value>100kΩ</value>
+      <value>100Ω</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Keyboard"/>
@@ -1805,7 +1805,7 @@
       <tstamps>82e82377-a009-4767-803b-9b2d1a9d3ace</tstamps>
     </comp>
     <comp ref="R37">
-      <value>100kΩ</value>
+      <value>100Ω</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Keyboard"/>
@@ -1814,7 +1814,7 @@
       <tstamps>53818924-2176-4de4-a526-c5298f3cf26e</tstamps>
     </comp>
     <comp ref="R38">
-      <value>100kΩ</value>
+      <value>100Ω</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Keyboard"/>
@@ -1823,7 +1823,7 @@
       <tstamps>b27a7f8e-0f22-47a1-a473-ec1ff400074d</tstamps>
     </comp>
     <comp ref="R39">
-      <value>100kΩ</value>
+      <value>100Ω</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Keyboard"/>
@@ -1832,7 +1832,7 @@
       <tstamps>4f638e82-ef5a-417b-ab66-ae92dc765ab2</tstamps>
     </comp>
     <comp ref="R40">
-      <value>100kΩ</value>
+      <value>100Ω</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Keyboard"/>
@@ -2224,7 +2224,7 @@
     </comp>
     <comp ref="J18">
       <value>Cassette</value>
-      <footprint>Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm</footprint>
+      <footprint>Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm</footprint>
       <libsource lib="Connector" part="DB9_Male_MountingHoles" description="9-pin male D-SUB connector, Mounting Hole"/>
       <property name="Sheetname" value="Cassette"/>
       <property name="Sheetfile" value="Cassette.kicad_sch"/>
@@ -4070,9 +4070,6 @@
     </library>
     <library logical="Switch">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
-    </library>
-    <library logical="Werner_custom">
-      <uri>C:/Users/dwerner/Werner_custom.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
