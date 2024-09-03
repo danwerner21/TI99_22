@@ -29,6 +29,9 @@ Possible Future Thoughts:
 * Clone Disk IO card
 * Relocate all the ports to the back of the motherboard
 
+* It has been suggested that we also have a console style version of the next revision as not everyone has a desire for a larger PE style machine
+* Also perhaps add some keys to the keyboard
+
 ## DIP Switch Settings
 The DIP switch on the main board allows one to configure which bank areas are populated with RAM.
  
