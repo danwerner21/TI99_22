@@ -51,6 +51,9 @@ also on-board RAM is 16 bit – so all of those external RAM sources will be slo
 * on rev 0.95 the joystick and cassette connectors are mirrored and need to be mounted on the bottom side of the board to function
 * Both of these are corrected in 0.96
 
+* The reset button J1 should be attached to pin 5 of U1 not Pin 4
+
+
 ## Bill of Materials
 ### Console
 Qty|Reference(s)|Part
@@ -137,7 +140,7 @@ Qty|Reference(s)|Part
 2|RN1, RN2|10K x 9 SIP Bussed
 1|SW1|DIP switchx05
 1|SW2|Pin Header 01x02 Male
-1|U1|TIM9904
+1|U1|TMS9904 (note this needs to be a 9904 not 9904ANL.  If the 9904ANL is used, Y1 needs to be substituted with 12Mhz, L1 needs to be substituted with 3.3uh and C2 needs to be substituted with 50pf)
 1|U2|TMS9900
 4|U3, U15, U22, U24|74LS04
 2|U4, U9|74LS32
